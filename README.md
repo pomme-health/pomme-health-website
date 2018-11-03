@@ -10,4 +10,6 @@ This repository is a prototype of POMMe-Health's website.
 - Melany Pelletier-Vaillant
 
 ---
-###License & Copyrights
+### License & Copyrights
+
+© 2018 POMMe-Health
