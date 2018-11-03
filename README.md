@@ -1,8 +1,13 @@
 # POMMe-Health Website
 This repository is a prototype of POMMe-Health's website.
 
-## Team Members
+---
+
+## Contributors
 
 - Mathieu Beaudry
-- Krystyna MacLeod
+- Krystyna MacLeod <hey@krystynamacleod.design>
 - Melany Pelletier-Vaillant
+
+---
+###License & Copyrights
