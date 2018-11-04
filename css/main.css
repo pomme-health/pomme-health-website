@@ -1,0 +1,33 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+footer {
+  background-color: #939598;
+}
+
+a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+ul > li::before {
+  content: none;
+  list-style-type: none;
+}
+
+h3, p, a {
+  color: #e6e7e8;
+}
+
+section {
+  background-color: #58595b;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .footer-nav {
+    text-align: left;
+  }
+
+}
