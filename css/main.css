@@ -2,10 +2,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-a {
+nav, ul, li, a {
   text-decoration: none;
-}
-
-ul {
   list-style: none;
 }
