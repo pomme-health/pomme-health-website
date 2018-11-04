@@ -6,9 +6,14 @@ footer {
   background-color: #939598;
 }
 
-nav, ul, li, a {
+a {
   text-decoration: none;
-  list-style: none;
+  list-style-type: none;
+}
+
+ul > li::before {
+  content: none;
+  list-style-type: none;
 }
 
 h3, p, a {
@@ -17,4 +22,11 @@ h3, p, a {
 
 section {
   background-color: #58595b;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .footer-nav {
+    text-align: left;
+  }
 }
