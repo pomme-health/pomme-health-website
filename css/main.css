@@ -2,7 +2,19 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+footer {
+  background-color: #939598;
+}
+
 nav, ul, li, a {
   text-decoration: none;
   list-style: none;
+}
+
+h3, p, a {
+  color: #e6e7e8;
+}
+
+section {
+  background-color: #58595b;
 }
