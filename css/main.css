@@ -1,8 +1,8 @@
 :root {
   --font-primary: "Roboto";
-  --color-light-gray: #F9F9F7;
-  --color-dark-gray: #505E5C;
-  --color-blue: #2ABAA3;
+  --color-light-gray: #F7F7F9;
+  --color-dark-gray: #353C51;
+  --color-blue: #17C9BC;
 
 }
 
@@ -14,8 +14,12 @@ a {
   text-decoration: none;
 }
 
-h2 {
-  color: #2F687A;
+.home-panels h2 {
+  font-weight: 300;
+}
+
+h3, a {
+  color: #e6e7e8;
 }
 
 p {
@@ -23,33 +27,19 @@ p {
   color: var(--color-dark-gray);
 }
 
-a {
-  text-decoration: none;
-}
-
 footer {
-  background-color: #939598;
+  background-color: var(--color-dark-gray);
 }
 
 .nav-footer {
   text-align: center;
 }
 
-h3, a {
-  color: #e6e7e8;
-}
-
-section {
-  background-color: #58595b;
-}
-
-
 .main-btn {
   border: 2px solid #000;
   border-radius: 30px;
   padding: .5em 2.5em;
-  background-color: var(--color-blue);
-  color: #fff;
+  color: var(--color-blue);
   border-color: var(--color-blue);
 }
 
@@ -67,13 +57,6 @@ section {
 .section-padding {
   padding-top: 5em;
   padding-bottom: 5em;
-
-.m-v-h3 {
-  color: #868686;
-}
-
-section {
-  background-color: #58595b;
 }
 
 .mission-value {
