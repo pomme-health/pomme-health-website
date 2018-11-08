@@ -1,11 +1,15 @@
 :root {
-  --font-primary: "Source Sans Pro";
+  --font-primary: "Roboto";
   --color-light-gray: #F5F4F2;
   --color-dark-blue: #2A374D;
   --color-blue: #24D1C4;
   --color-yellow: #FAB00A;
   --color-pink: #ED5270;
   --color-purple: #3E4E72;
+}
+
+html {
+  font-family: var(--font-primary);
 }
 
 a {
