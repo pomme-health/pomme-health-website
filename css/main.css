@@ -1,9 +1,10 @@
 :root {
   --font-primary: "Roboto";
-  --color-light-gray: #F7F7F9;
+  --color-light-gray: #F9F9F9;
+  --color-medium-gray: #A5A5A5;
   --color-dark-gray: #353C51;
   --color-blue: #17C9BC;
-
+  --color-medium-blue: #5D8FA8;
 }
 
 html {
@@ -28,11 +29,24 @@ p {
 }
 
 footer {
-  background-color: var(--color-dark-gray);
+  border-top: 1px solid var(--color-medium-gray);
+}
+
+footer a, footer h3 {
+  color: var(--color-dark-gray);
+}
+
+footer a {
+  color: var(--color-medium-blue);
+  font-weight: 300;
 }
 
 .nav-footer {
   text-align: center;
+}
+
+.footer-copyright {
+  border-top: 1px solid var(--color-medium-gray);
 }
 
 .main-btn {
