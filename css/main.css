@@ -13,6 +13,42 @@ html {
 
 a {
   text-decoration: none;
+  display: inline-block;
+}
+
+/* Navigation */
+.nav-top-section {
+  background-color: #fff;
+  border-bottom: 1px solid var(--color-medium-gray);
+}
+
+.nav-bottom-section {
+  border-bottom: 1px solid var(--color-medium-gray);
+}
+
+.main-navigation ul li {
+    float: left;
+    text-align: center;
+    width: 16.6667%; /* fallback for non-calc() browsers */
+    width: calc(100% / 6);
+}
+
+nav ul li a {
+    color: var(--color-dark-gray);
+    transition: all .2s ease;
+}
+
+nav ul li a:hover {
+  color: var(--color-blue);
+  font-weight: 600;
+}
+
+.about-dropdown {
+  border-bottom: 1px solid var(--color-medium-gray);
+  display: none;
+}
+a.about-link:hover .about-dropdown {
+  display: block;
 }
 
 .home-panels h2 {
