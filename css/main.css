@@ -1,12 +1,26 @@
 :root {
-  --font-primary: "Niveau Grotesk";
-  --font-secondary: "Noto Serif";
-  --color-light-gray: #F5F4F2;
-  --color-dark-grey: #2A374D;
-  --color-blue: #24D1C4;
-  --color-yellow: #FAB00A;
-  --color-pink: #ED5270;
-  --color-purple: #3E4E72;
+  --font-primary: "Roboto";
+  --color-light-gray: #F9F9F7;
+  --color-dark-gray: #505E5C;
+  --color-blue: #2ABAA3;
+
+}
+
+html {
+  font-family: var(--font-primary);
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  color: #2F687A;
+}
+
+p {
+  font-weight: 300;
+  color: var(--color-dark-gray);
 }
 
 a {
@@ -24,6 +38,35 @@ footer {
 h3, a {
   color: #e6e7e8;
 }
+
+section {
+  background-color: #58595b;
+}
+
+
+.main-btn {
+  border: 2px solid #000;
+  border-radius: 30px;
+  padding: .5em 2.5em;
+  background-color: var(--color-blue);
+  color: #fff;
+  border-color: var(--color-blue);
+}
+
+.main-section-color {
+  background-color: var(--color-light-gray);
+}
+
+/* Health Care Professionals */
+
+.features-banner {
+  height: 300px;
+  background-color: #e2e2e2;
+}
+
+.section-padding {
+  padding-top: 5em;
+  padding-bottom: 5em;
 
 .m-v-h3 {
   color: #868686;
@@ -46,5 +89,4 @@ section {
   .nav-footer {
     text-align: left;
   }
-
-}
+ }
