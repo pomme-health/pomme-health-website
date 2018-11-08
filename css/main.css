@@ -29,7 +29,7 @@ section {
   background-color: #58595b;
 }
 
-@media only screen and (min-width: 25em) {
+@media only screen and (min-width: 38em) {
 
   .nav-footer {
     text-align: left;
