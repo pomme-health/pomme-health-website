@@ -3,9 +3,7 @@
   --color-light-gray: #F9F9F7;
   --color-dark-gray: #505E5C;
   --color-blue: #2ABAA3;
-  --color-yellow: #FAB00A;
-  --color-pink: #ED5270;
-  --color-purple: #3E4E72;
+
 }
 
 html {
@@ -45,14 +43,6 @@ section {
   background-color: #58595b;
 }
 
-@media only screen and (min-width: 38em) {
-
-  .nav-footer {
-    text-align: left;
-  }
-
-}
-
 
 .main-btn {
   border: 2px solid #000;
@@ -77,4 +67,26 @@ section {
 .section-padding {
   padding-top: 5em;
   padding-bottom: 5em;
+
+.m-v-h3 {
+  color: #868686;
 }
+
+section {
+  background-color: #58595b;
+}
+
+.mission-value {
+  background-color: ##f7f7f7;
+}
+
+.card-image {
+  box-shadow: 3px 3px 10px #bcbec0;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .nav-footer {
+    text-align: left;
+  }
+ }
