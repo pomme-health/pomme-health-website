@@ -3,5 +3,11 @@ layout: default
 ---
 
 <div class="features-banner relative">
-  <h2 class="absolute pin-cl gutter">Health Care Professionals</h2>
+  <div class="wrapper absolute pin-c">
+    <h2 class="">Health Care Professionals</h2>
+  </div>
 </div>
+
+{% for healthcare in site.data.healthcare-professionals %}
+{% include healthcare-professionals.html data=healthcare %}
+{% endfor %}

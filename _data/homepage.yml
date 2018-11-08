@@ -12,6 +12,7 @@
   mainSectionLink:
   pushClass: unit-push-m-1-2
   pullClass: unit-pull-m-1-2
+  sectionPadding: section-padding
 
 - leadingText: Continuous
   mainSectionHeader: Tracking progress over time

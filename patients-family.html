@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<div class="features-banner relative">
+  <div class="wrapper absolute pin-c">
+    <h2 class="">Patients & Family</h2>
+  </div>
+</div>
+
+{% for patients in site.data.patients-family %}
+{% include patients-family.html data=patients %}
+{% endfor %}
