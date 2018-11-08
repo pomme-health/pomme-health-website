@@ -353,12 +353,12 @@ select {
 
 .pad-top-double,
 .pad-t-2 {
-  padding-top: 3.6rem;
+  padding-top: 5.6rem;
 }
 
 .pad-bottom-double,
 .pad-b-2 {
-  padding-bottom: 3.6rem;
+  padding-bottom: 5.6rem;
 }
 
 .pad-top-three-quarters,
@@ -767,12 +767,12 @@ legend {
 
   .pad-top-double,
   .pad-t-2 {
-    padding-top: 3.7rem;
+    padding-top: 5.7rem;
   }
 
   .pad-bottom-double,
   .pad-b-2 {
-    padding-bottom: 3.7rem;
+    padding-bottom: 5.7rem;
   }
 
   .pad-top-three-quarters,
@@ -1183,12 +1183,12 @@ legend {
 
   .pad-top-double,
   .pad-t-2 {
-    padding-top: 4rem;
+    padding-top: 6rem;
   }
 
   .pad-bottom-double,
   .pad-b-2 {
-    padding-bottom: 4rem;
+    padding-bottom: 6rem;
   }
 
   .pad-top-three-quarters,
@@ -1599,12 +1599,12 @@ legend {
 
   .pad-top-double,
   .pad-t-2 {
-    padding-top: 4rem;
+    padding-top: 6rem;
   }
 
   .pad-bottom-double,
   .pad-b-2 {
-    padding-bottom: 4rem;
+    padding-bottom: 6rem;
   }
 
   .pad-top-three-quarters,
