@@ -2,18 +2,13 @@
 layout: default
 ---
 <h1>Hello</h1>
-  <section class="">
-    <div class="grid grid-middle">
 
-      {% for work in site.data.homepage %}
-      {% include main-section.html data=work %}
-      {% endfor %}
-
-    </div>
-  </section>
+  {% for work in site.data.homepage %}
+  {% include main-section.html data=work %}
+  {% endfor %}
 
   <section class="">
-      <div class="front-cards grid grid-middle">
+      <div class="grid grid-middle">
 
 
 

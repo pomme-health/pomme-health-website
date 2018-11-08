@@ -15,3 +15,13 @@ html {
 a {
   text-decoration: none;
 }
+
+p {
+  font-weight: 300;
+}
+
+.main-btn {
+  border: 2px solid #000;
+  border-radius: 30px;
+  padding: .5em 1.5em;
+}

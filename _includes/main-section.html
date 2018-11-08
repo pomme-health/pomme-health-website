@@ -1,11 +1,14 @@
-<div class="unit xs-1 s-1 m-1-2 l-1-2">
-  <img class="img-flex" src="https://placehold.it/700x500" alt="">
-</div>
-<div class="unit xs-1 s-1 m-1-2 l-1-2">
-  <p class="push-0 bold">{{include.data.leadingText}}</p>
-  <h2>{{include.data.mainSectionHeader}}</h2>
-  <p>{{include.data.mainSectionText}}</p>
-  <div class="">
-    <a href="#">Learn More</a>
+<section class="pad-t pad-b">
+  <div class="grid grid-middle">
+  <div class="unit xs-1 s-1 m-1-2 l-1-2">
+    <img class="img-flex" src="https://placehold.it/700x600" alt="">
   </div>
-</div>
+  <div class="unit xs-1 s-1 m-1-2 l-1-2 island {{include.data.pushClass}}">
+    <p class="push-1-2 bold">{{include.data.leadingText}}</p>
+    <h2>{{include.data.mainSectionHeader}}</h2>
+    <p>{{include.data.mainSectionText}}</p>
+    <div class="">
+      <a class="main-btn ib milli" href="#">Learn More</a>
+    </div>
+  </div>
+</section>
