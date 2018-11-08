@@ -28,16 +28,21 @@ p {
   color: var(--color-dark-gray);
 }
 
-footer {
-  border-top: 1px solid var(--color-medium-gray);
-}
-
-footer a, footer h3 {
+.home-cards h2 {
   color: var(--color-dark-gray);
 }
 
+footer {
+  border-top: 1px solid var(--color-medium-gray);
+  background-color: var(--color-dark-gray);
+}
+
+footer h3 {
+  color: #fff;
+}
+
 footer a {
-  color: var(--color-medium-blue);
+  color: #AEB1B9;
   font-weight: 300;
 }
 
@@ -57,9 +62,9 @@ footer a {
   border-color: var(--color-blue);
 }
 
-.main-section-color {
+/* .main-section-color {
   background-color: var(--color-light-gray);
-}
+} */
 
 /* Health Care Professionals */
 

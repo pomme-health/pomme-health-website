@@ -2,7 +2,7 @@
 layout: default
 ---
 
-  <section class="wrapper pad-t pad-b gutter-1-2">
+  <section class="wrapper pad-t-2 pad-b-2 gutter-1-2 home-cards">
     <div class="grid grid-top">
       {% for cards in site.data.homepage-cards %}
       {% include homepage-cards.html data=cards %}
@@ -12,3 +12,6 @@ layout: default
   {% for work in site.data.homepage %}
   {% include main-section.html data=work %}
   {% endfor %}
+  <section class="pad-t-2 pad-b-2 wrapper text-center">
+    <h2>Get in touch</h2>
+  </section>
