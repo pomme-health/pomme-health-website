@@ -2,7 +2,7 @@
   --font-primary: "Niveau Grotesk";
   --font-secondary: "Noto Serif";
   --color-light-gray: #F5F4F2;
-  --color-dark-blue: #2A374D;
+  --color-dark-grey: #2A374D;
   --color-blue: #24D1C4;
   --color-yellow: #FAB00A;
   --color-pink: #ED5270;
@@ -11,4 +11,28 @@
 
 a {
   text-decoration: none;
+}
+
+footer {
+  background-color: #939598;
+}
+
+.nav-footer {
+  text-align: center;
+}
+
+h3, a {
+  color: #e6e7e8;
+}
+
+section {
+  background-color: #58595b;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .nav-footer {
+    text-align: left;
+  }
+
 }
