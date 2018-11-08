@@ -80,8 +80,8 @@ section {
   background-color: ##f7f7f7;
 }
 
-.card-image {
-  box-shadow: 3px 3px 10px #bcbec0;
+.card-shadow {
+  box-shadow: 3px 3px 10px #000;
 }
 
 @media only screen and (min-width: 38em) {
