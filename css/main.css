@@ -43,6 +43,9 @@ section {
   background-color: #58595b;
 }
 
+.about-section {
+  background-color: none;
+}
 
 .main-btn {
   border: 2px solid #000;
