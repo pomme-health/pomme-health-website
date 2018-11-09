@@ -8,18 +8,41 @@
   <link href='{{site.baseurl}}/css/type.css' rel="stylesheet">
   <link href='{{site.baseurl}}/css/module.css' rel="stylesheet">
   <link href='{{site.baseurl}}/css/main.css' rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+  <!-- <link href='{{site.baseurl}}/css/navigation.css' rel="stylesheet"> -->
+<link href="https://fonts.googleapis.com/css?family=Muli:300,400,700|Raleway:300,700" rel="stylesheet">
 </head>
 <body>
-  <section class="nav-top-section gutter-2 pad-t-1-2 pad-b-1-2">
-    <div class="grid grid-middle wrapper">
+  <!-- <section>
+  <div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+</section> -->
+  <section class="nav-top-section gutter-2">
+    <div class="grid grid-middle wrapper pad-t pad-b">
       <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2">
-        <img src="https://via.placeholder.com/160x50" alt="">
+        <a href="{{site.baseurl}}/index">
+          <div class="logo"><img class="img-flex" src="{{site.baseurl}}images/logo-test.png" alt=""></div></a>
       </div>
 
-      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2">
-        <div>
-          <ul class="list-group-inline text-right push-0">
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 text-right">
+        <div class="ib">
+          <a class="nav-btn milli" href="#">POMMe Platform</a>
+        </div>
+          <ul class="list-group-inline ib push-0">
             <li class="gutter-1-4"><a href="#">
               <i class="icon i-32">
                 <img src="images/facebook-icon.svg">
@@ -36,18 +59,16 @@
               </i>
             </a></li>
           </ul>
-        </div>
       </div>
     </div>
   </section>
 
   <section class="nav-bottom-section">
-    <nav class="wrapper main-navigation">
+    <nav class="main-navigation wrapper">
       <ul class="list-group-inline push-0 pad-t-1-2 pad-b-1-2">
-        <li><a class="micro" href="#">POMMe Platform</a></li>
-        <li><a class="micro" href="#">Professionals</a></li>
-        <li><a class="micro" href="#">Patients & Families</a></li>
-        <li><a class="about-link micro" href="#">About Us</a></li>
+        <li><a class="micro" href="{{site.baseurl}}/health-care-professionals">Health Care Professionals</a></li>
+        <li><a class="micro" href="{{site.baseurl}}/patients-family">Patients & Families</a></li>
+        <li><a class="about-link micro" href="{{site.baseurl}}/about">About Us</a></li>
         <li><a class="micro" href="#">Blog</a></li>
         <li><a class="micro" href="#">Contact Us</a></li>
       </ul>
@@ -113,6 +134,6 @@
     </div>
 
   </footer>
-
+<script src="{{site.baseurl}}/js/main.js"></script>
 </body>
 </html>

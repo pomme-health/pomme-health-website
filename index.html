@@ -6,10 +6,10 @@ layout: default
     <div class="unit xs-1 s-1 m-1 l-1-2">
       <h1 class="yotta">POMMe-Health</h1>
       <p class="milli">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
-      <a class="btn" href="#">Learn More</a>
+      <a class="nav-btn" href="#">Learn More</a>
     </div>
   </div>
-</section>  
+</section>
 
   <section class="wrapper pad-t-2 pad-b-2 gutter-1-2 home-cards">
     <div class="grid grid-top">
@@ -21,6 +21,5 @@ layout: default
   {% for work in site.data.homepage %}
   {% include main-section.html data=work %}
   {% endfor %}
-  <section class="pad-t-2 pad-b-2 wrapper text-center">
-    <h2>Get in touch</h2>
+  {% include get-in-touch.html %}
   </section>
