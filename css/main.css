@@ -1,9 +1,10 @@
 :root {
   --font-primary: "Roboto";
-  --color-light-gray: #F9F9F7;
-  --color-dark-gray: #505E5C;
-  --color-blue: #2ABAA3;
-
+  --color-light-gray: #F9F9F9;
+  --color-medium-gray: #A5A5A5;
+  --color-dark-gray: #353C51;
+  --color-blue: #17C9BC;
+  --color-medium-blue: #5D8FA8;
 }
 
 html {
@@ -12,10 +13,7 @@ html {
 
 a {
   text-decoration: none;
-}
-
-h2 {
-  color: #2F687A;
+  display: inline-block;
 }
 
 p {
@@ -23,44 +21,121 @@ p {
   color: var(--color-dark-gray);
 }
 
-a {
-  text-decoration: none;
+/* Buttons */
+/*Main ghost buttons from home page*/
+.main-btn {
+  border: 2px solid #000;
+  border-radius: 30px;
+  padding: .5em 2.5em;
+  color: var(--color-blue);
+  border-color: var(--color-blue);
+  transition: all .3s ease;
 }
 
+.main-btn:hover {
+  color: #fff;
+  background-color: var(--color-blue);
+  transform: scale(1.015);
+}
+
+/* Navigation */
+.nav-top-section {
+  background-color: #fff;
+  border-bottom: 1px solid var(--color-medium-gray);
+}
+
+.nav-bottom-section {
+  border-bottom: 1px solid var(--color-medium-gray);
+}
+
+.main-navigation ul li {
+    float: left;
+    text-align: center;
+    width: 16.6667%; /* fallback for non-calc() browsers */
+    width: calc(100% / 6);
+}
+
+nav ul li a {
+    color: var(--color-dark-gray);
+    transition: all .2s ease;
+}
+
+nav ul li a:hover {
+  color: var(--color-blue);
+  font-weight: 600;
+}
+
+.about-dropdown {
+  border-bottom: 1px solid var(--color-medium-gray);
+  display: none;
+}
+a.about-link:hover .about-dropdown {
+  display: block;
+}
+
+/*------------Banner-------------*/
+
+.jumbotron-banner {
+  height: 500px;
+  background-color: var(--color-blue);
+  /* background: url(../images/hero-banner-test.jpg);
+  background-size: cover;
+  background-position: center right; */
+}
+
+.jumbotron-banner h1, .jumbotron-banner p {
+  color: #fff;
+}
+
+.jumbotron-container {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Home Cards */
+.home-cards h2 {
+  color: var(--color-dark-gray);
+}
+
+/* Home Sections */
+.home-panels h2 {
+  font-weight: 300;
+}
+
+/* Footer */
 footer {
-  background-color: #939598;
+  border-top: 1px solid var(--color-medium-gray);
+  background-color: var(--color-dark-gray);
+}
+
+footer h3 {
+  color: #fff;
+}
+
+footer a {
+  color: #AEB1B9;
+  font-weight: 300;
 }
 
 .nav-footer {
   text-align: center;
 }
 
-h3, a {
-  color: #e6e7e8;
+.footer-copyright {
+  border-top: 1px solid var(--color-medium-gray);
+  background-color: #282D3D;
 }
 
-section {
-  background-color: #58595b;
+.footer-copyright p {
+  color: #AEB1B9;
 }
 
-.about-section {
-  background-color: none;
-}
-
-.main-btn {
-  border: 2px solid #000;
-  border-radius: 30px;
-  padding: .5em 2.5em;
-  background-color: var(--color-blue);
-  color: #fff;
-  border-color: var(--color-blue);
-}
-
-.main-section-color {
+/* .main-section-color {
   background-color: var(--color-light-gray);
-}
+} */
 
-/* Health Care Professionals */
+/* Health Care Professionals & Patients and Family */
 
 .features-banner {
   height: 300px;
@@ -70,16 +145,13 @@ section {
 .section-padding {
   padding-top: 5em;
   padding-bottom: 5em;
+
 }
 
 /* About Page */
 
 .m-v-h3 {
   color: #868686;
-}
-
-section {
-  background-color: #58595b;
 }
 
 .mission-value {
@@ -95,5 +167,4 @@ section {
   .nav-footer {
     text-align: left;
   }
-
  }
