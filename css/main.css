@@ -70,6 +70,9 @@ section {
 .section-padding {
   padding-top: 5em;
   padding-bottom: 5em;
+}
+
+/* About Page */
 
 .m-v-h3 {
   color: #868686;
@@ -92,4 +95,5 @@ section {
   .nav-footer {
     text-align: left;
   }
+
  }
