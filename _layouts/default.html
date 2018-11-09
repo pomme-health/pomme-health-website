@@ -8,37 +8,20 @@
   <link href='{{site.baseurl}}/css/type.css' rel="stylesheet">
   <link href='{{site.baseurl}}/css/module.css' rel="stylesheet">
   <link href='{{site.baseurl}}/css/main.css' rel="stylesheet">
-  <!-- <link href='{{site.baseurl}}/css/navigation.css' rel="stylesheet"> -->
+  <link href='{{site.baseurl}}/css/navigation.css' rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700|Raleway:300,700" rel="stylesheet">
 </head>
 <body>
-  <!-- <section>
-  <div class="topnav" id="myTopnav">
-  <a href="#home" class="active">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <div class="dropdown">
-    <button class="dropbtn">Dropdown
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
-    </div>
-  </div>
-  <a href="#about">About</a>
-  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
-</section> -->
-  <section class="nav-top-section gutter-2">
-    <div class="grid grid-middle wrapper pad-t pad-b">
+
+  <section class="nav-top-section island wrapper ">
+    <div class="grid grid-middle">
       <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2">
         <a href="{{site.baseurl}}/index">
           <div class="logo"><img class="img-flex" src="{{site.baseurl}}images/logo-test.png" alt=""></div></a>
       </div>
 
-      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 text-right">
+      <div class="unit xs-0 s-0 m-0 l-1-2 xl-1-2 text-right nav-hide">
         <div class="ib">
           <a class="nav-btn milli" href="#">POMMe Platform</a>
         </div>
@@ -63,26 +46,63 @@
     </div>
   </section>
 
-  <section class="nav-bottom-section">
-    <nav class="main-navigation wrapper">
-      <ul class="list-group-inline push-0 pad-t-1-2 pad-b-1-2">
-        <li><a class="micro" href="{{site.baseurl}}/health-care-professionals">Health Care Professionals</a></li>
-        <li><a class="micro" href="{{site.baseurl}}/patients-family">Patients & Families</a></li>
-        <li><a class="about-link micro" href="{{site.baseurl}}/about">About Us</a></li>
-        <li><a class="micro" href="#">Blog</a></li>
-        <li><a class="micro" href="{{site.baseurl}}/contact-page">Contact Us</a></li>
+  <section class="navigation">
+    <nav class="pad-t pad-b">
+      <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+      <div class="wrapper">
+      <ul class="nav-list list-group">
+        <li>
+          <a href="#!">Home</a>
+        </li>
+        <li class="hide-link">
+          <a href="#!">POMME Platform</a>
+        </li>
+        <li>
+        <li>
+          <a href="#!">Health Care Professionals</a>
+        </li>
+        <li>
+          <a href="#!">Patients & Family</a>
+        </li>
+        <li>
+          <a href="#!">About Us</a>
+          <ul class="nav-dropdown list-group">
+            <li>
+              <a href="#!">History</a>
+            </li>
+            <li>
+              <a href="#!">Mission Statement</a>
+            </li>
+            <li>
+              <a href="#!">Leadership</a>
+            </li>
+            <li>
+              <a href="#!">In the News</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#!">Blog</a>
+        </li>
+        <li>
+          <a href="#!">Contact Us</a>
+          <ul class="nav-dropdown list-group">
+            <li>
+              <a href="#!">Technical Support</a>
+            </li>
+            <li>
+              <a href="#!">Investors</a>
+            </li>
+            <li>
+              <a href="#!">Careers</a>
+            </li>
+          </ul>
+        </li>
       </ul>
+    </div>
     </nav>
-  </section>
-    <section class="about-dropdown">
-    <nav class="wrapper text-center">
-      <ul class="list-group-inline push-0 pad-t-1-2 pab-1-2">
-        <li><a class="gutter" href="#">Mission Statement</a></li>
-        <li><a class="gutter" href="#">Values</a></li>
-        <li><a class="gutter" href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </section>
+
+</section>
   {{content}}
 
 
