@@ -1,0 +1,12 @@
+- contactHeader: Eliminate Blind Spots
+  contactText: We will define a patient by the person they are and the environment they live in, not by their diagnosis. POMMe allows both health care providers and the patient to input information about the complete patient.
+  pushClass: unit-push-m-1-2
+  pullClass: unit-pull-m-1-2
+  sectionColour: main-section-color
+
+- contactHeader: Comprehensive
+  contactText: We will define a patient by the person they are and the environment they live in, not by their diagnosis. POMMe allows both health care providers and the patient to input information about the complete patient.
+  pushClass: m-1-2
+  pullClass: m-1-2
+  sectionColour:
+  sectionPadding: section-padding
