@@ -1,8 +1,6 @@
 ---
 layout: default
 meta: This is the About page for the POMMe-Health.
-section-title: Leadership
-section-content: Lorem ipsum dolor sit amet. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
 ---
 <div class="features-banner relative">
   <div class="wrapper absolute pin-c">
@@ -14,15 +12,19 @@ section-content: Lorem ipsum dolor sit amet. consectetur adipiscing elit, sed do
 {% include about-text.html data=about %}
 {% endfor %}
 
-<div class="grid">
+<div class="grid grid-middle wrapper">
 {% for about in site.data.mission-values %}
 {% include mission-values.html data=about %}
 {% endfor %}
 </div>
 
-{% include about-section.html %}
+<div class="grid wrapper">
+{% for about in site.data.about-section %}
+{% include about-section.html data=about %}
+{% endfor %}
+</div>
 
-<article class="island">
+<article class="island wrapper">
   <h2 class="push-1-2 giga">In the News</h2>
   <div class="grid">
   {% for about in site.data.about-cards %}
