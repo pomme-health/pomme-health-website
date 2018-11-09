@@ -145,14 +145,21 @@ footer a {
 .section-padding {
   padding-top: 5em;
   padding-bottom: 5em;
+
+}
+
+/* About Page */
+
+.m-v-h3 {
+  color: #868686;
 }
 
 .mission-value {
   background-color: ##f7f7f7;
 }
 
-.card-image {
-  box-shadow: 3px 3px 10px #bcbec0;
+.card-shadow {
+  box-shadow: 3px 3px 10px #e2e2e2;
 }
 
 @media only screen and (min-width: 38em) {
