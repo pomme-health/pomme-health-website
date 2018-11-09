@@ -1,8 +1,6 @@
 ---
 layout: default
 meta: This is the About page for the POMMe-Health.
-mission: Mission
-mission-content: Lorem ipsum dolor sit amet. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 values: Values
 values-content: Lorem ipsum dolor sit amet. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 card-title-one: What's in the News
@@ -19,7 +17,11 @@ section-content: Lorem ipsum dolor sit amet. consectetur adipiscing elit, sed do
 {% include about-text.html data=about %}
 {% endfor %}
 
-{% include mission-values.html %}
+<div class="grid">
+{% for about in site.data.mission-values %}
+{% include mission-values.html data=about %}
+{% endfor %}
+</div>
 
 {% include about-section.html %}
 
