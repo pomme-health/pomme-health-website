@@ -82,6 +82,10 @@ a.about-link:hover .about-dropdown {
   display: block;
 }
 
+.logo {
+  width: 200px;
+}
+
 /*------------Banner-------------*/
 
 .jumbotron-banner {
