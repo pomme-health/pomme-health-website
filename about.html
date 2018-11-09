@@ -15,20 +15,15 @@ section-title: Leadership
 section-content: Lorem ipsum dolor sit amet. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
 ---
 
-<main>
+{% for about in site.data.about-text %}
+{% include about-text.html data=about-text %}
+{% endfor %}
 
-  {% for about in site.data.about-text %}
-  {% include about-text.html data=about-text %}
-  {% endfor %}
+{% include mission-values.html %}
 
-  {% include mission-values.html %}
+{% include about-section.html %}
 
-  {% include about-section.html %}
-
-  <article class="island">
-    <h2 class="push-1-2 giga">In the News</h2>
-    {% include about-cards.html %}
-  </article>
-
-
-</main>
+<article class="island">
+  <h2 class="push-1-2 giga">In the News</h2>
+  {% include about-cards.html %}
+</article>
