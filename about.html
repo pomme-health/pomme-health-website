@@ -1,7 +1,6 @@
 ---
 layout: default
 meta: This is the About page for the POMMe-Health.
-h2: Our Story
 par-one: Lorem ipsum dolor sit amet. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
 par-two: quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 mission: Mission
@@ -20,7 +19,9 @@ section-content: Lorem ipsum dolor sit amet. consectetur adipiscing elit, sed do
 
 <main>
 
-  {% include about-text.html %}
+  {% for about in site.data.about-text %}
+  {% include about-text.html data=about-text %}
+  {% endfor %}
 
   {% include mission-values.html %}
 
