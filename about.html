@@ -1,31 +1,32 @@
 ---
 layout: default
+title: POMMe-Health About
 meta: This is the About page for the POMMe-Health.
 ---
-<div class="features-banner relative">
-  <div class="wrapper absolute pin-c">
-    <h2 class="gutter">About</h2>
+
+<section id="about-history" class="pad-t-2 pad-b-2">
+  {% for about in site.data.about-text %}
+  {% include about-text.html data=about %}
+  {% endfor %}
+</section>
+
+<section id=about-mission-values class="pad-b-2">
+  <div class="grid grid-middle wrapper">
+  {% for about in site.data.mission-values %}
+  {% include mission-values.html data=about %}
+  {% endfor %}
   </div>
-</div>
+</section>
 
-{% for about in site.data.about-text %}
-{% include about-text.html data=about %}
-{% endfor %}
+<section id="about-leadership" class="pad-b-2">
+  <div class="grid grid-middle wrapper">
+  {% for about in site.data.about-section %}
+  {% include about-section.html data=about %}
+  {% endfor %}
+  </div>
+</section>
 
-<div class="grid grid-middle wrapper">
-{% for about in site.data.mission-values %}
-{% include mission-values.html data=about %}
-{% endfor %}
-</div>
-
-
-<div class="grid wrapper">
-{% for about in site.data.about-section %}
-{% include about-section.html data=about %}
-{% endfor %}
-</div>
-
-<article class="island wrapper">
+<article id="about-news" class="island wrapper">
   <h2 class="push-1-2 giga">In the News</h2>
   <div class="grid">
   {% for about in site.data.about-cards %}
