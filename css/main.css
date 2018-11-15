@@ -95,14 +95,14 @@ p {
 /* Health Care Professionals */
 .small-banner {
   height: 300px;
-  background-color: #e2e2e2;
+  background-color: var(--color-blue);
   /* background: url(../images/hero-banner-test.jpg);
   background-size: cover;
   background-position: center right; */
 }
 
 .small-banner h1, .small-banner p {
-  color: var(--color-dark-gray);
+  color: #fff;
 }
 
 .small-banner-container {
@@ -126,6 +126,12 @@ footer h3 {
 footer a {
   color: var(--color-medium-blue);
   font-weight: 300;
+  transition: all .3s ease;
+}
+
+footer a:hover {
+  color: var(--color-dark-gray);
+  font-weight: 700;
 }
 
 .nav-footer {
