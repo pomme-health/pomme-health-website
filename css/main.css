@@ -92,6 +92,25 @@ p {
   background-color: #FCFCFC;
 }
 
+/* Health Care Professionals */
+.small-banner {
+  height: 300px;
+  background-color: #e2e2e2;
+  /* background: url(../images/hero-banner-test.jpg);
+  background-size: cover;
+  background-position: center right; */
+}
+
+.small-banner h1, .small-banner p {
+  color: var(--color-dark-gray);
+}
+
+.small-banner-container {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 /* Get In Touch */
 
 /* Footer */
