@@ -134,11 +134,11 @@ footer a {
 
 .footer-copyright {
   border-top: 1px solid var(--color-medium-gray);
-  background-color: #282D3D;
+  background-color: var(--color-blue);
 }
 
 .footer-copyright p {
-  color: var(--color-medium-blue);
+  color: white;
 }
 
 /* .main-section-color {
