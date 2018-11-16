@@ -61,11 +61,11 @@ p {
 /*------------Banner-------------*/
 
 .jumbotron-banner {
+  background: linear-gradient(to right, rgba(255, 255, 255, 1) , rgba(255, 255, 255, .2)), url(../images/background-test.jpg);
   height: 500px;
-  background-color: #fff;
-  /* background: url(../images/hero-banner-test.jpg);
   background-size: cover;
-  background-position: center right; */
+  background-position: center right;
+
 }
 
 .jumbotron-banner h1, .jumbotron-banner p {
@@ -92,6 +92,25 @@ p {
   background-color: #FCFCFC;
 }
 
+/* Health Care Professionals */
+.small-banner {
+  height: 300px;
+  background-color: var(--color-blue);
+  /* background: url(../images/hero-banner-test.jpg);
+  background-size: cover;
+  background-position: center right; */
+}
+
+.small-banner h1, .small-banner p {
+  color: #fff;
+}
+
+.small-banner-container {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 /* Get In Touch */
 
 /* Footer */
@@ -107,6 +126,12 @@ footer h3 {
 footer a {
   color: var(--color-medium-blue);
   font-weight: 300;
+  transition: all .3s ease;
+}
+
+footer a:hover {
+  color: var(--color-dark-gray);
+  font-weight: 700;
 }
 
 .nav-footer {
@@ -115,11 +140,11 @@ footer a {
 
 .footer-copyright {
   border-top: 1px solid var(--color-medium-gray);
-  background-color: #282D3D;
+  background-color: var(--color-blue);
 }
 
 .footer-copyright p {
-  color: var(--color-medium-blue);
+  color: white;
 }
 
 /* .main-section-color {
