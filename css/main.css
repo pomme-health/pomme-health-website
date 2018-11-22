@@ -16,6 +16,10 @@ a {
   display: inline-block;
 }
 
+img {
+  width: 100%;
+  display: block;
+}
 
 /* Buttons */
 /*Main ghost buttons from home page*/
