@@ -3,3 +3,16 @@ heroBanner:
   text: "Text goes gere"
   buttonText: "Learn More"
   image: "../images/uploads/banner.jpg"
+
+homeCards:
+  - icon: https://placeholidit.com/50x50
+    title: "Common Language"
+    text: "A comprehensive common language for truly efficient collaboration"
+
+  - icon: https://placeholidit.com/50x50
+    title: "Break Down Barriers"
+    text: "A comprehensive common language for truly efficient collaboration"
+
+  - icon: https://placeholidit.com/50x50
+    title: "Driven by Passion"
+    text: "A comprehensive common language for truly efficient collaboration"
