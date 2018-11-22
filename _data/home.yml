@@ -1,18 +1,17 @@
 heroBanner:
-  title: "POMMe-Health"
-  text: "Text goes gere"
-  buttonText: "Learn More"
-  image: "./images/uploads/banner.jpg"
-
+  button: Learn More
+  image: ./images/uploads/banner.jpg
+  text: Text goes here
+  title: POMMe-Health
 homeCards:
   - icon: /images/uploads/common-language-icon.svg
     title: "Common Language"
     text: "A comprehensive common language for truly efficient collaboration"
 
-  - icon:
+  - icon: /images/uploads/common-language-icon.svg
     title: "Break Down Barriers"
     text: "An innovative platform to solve the communication barriers between health care providers and complex patients."
 
-  - icon:
+  - icon: /images/uploads/common-language-icon.svg
     title: "Driven by Passion"
     text: "We are passionate about providing a tool so that health care providers and patients can finally be on the same page."
