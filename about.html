@@ -5,9 +5,7 @@ meta: This is the About page for the POMMe-Health.
 ---
 
 <section id="about-history" class="pad-t-2 pad-b-2">
-  {% for about in site.data.about-text %}
-  {% include about-text.html data=about %}
-  {% endfor %}
+  <p>{{site.data.about.historyText}}</p>
 </section>
 
 <section id=about-mission-values class="pad-b-2">
