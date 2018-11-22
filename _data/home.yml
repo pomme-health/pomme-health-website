@@ -36,7 +36,7 @@ homeSections:
     sectionPadding: section-padding
     sectionButton: Learn More
 
-  - leadingText: Continuous"
+  - leadingText: Continuous
     mainSectionHeader: Tracking progress over time
     mainSectionText: The ability to measure patient’s outcomes over time allows everyone to continuously monitor and improve the delivery of care.
     mainSectionLink:
