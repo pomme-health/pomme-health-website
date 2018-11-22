@@ -1,5 +1,5 @@
 :root {
-  --font-primary: "Muli";
+  --font-primary: "Quicksand";
   --color-light-gray: #FCFCFC;
   --color-medium-gray: #A5A5A5;
   --color-dark-gray: #353C51;
@@ -16,10 +16,6 @@ a {
   display: inline-block;
 }
 
-p {
-  font-weight: 300;
-  color: var(--color-dark-gray);
-}
 
 /* Buttons */
 /*Main ghost buttons from home page*/
@@ -30,6 +26,7 @@ p {
   color: var(--color-blue);
   border-color: var(--color-blue);
   transition: all .3s ease;
+  font-weight: 600;
 }
 
 .main-btn:hover {
