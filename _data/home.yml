@@ -5,14 +5,14 @@ heroBanner:
   image: "./images/uploads/banner.jpg"
 
 homeCards:
-  - icon: "/images/uploads/common-language-icon.svg"
+  - icon: /images/uploads/common-language-icon.svg
     title: "Common Language"
     text: "A comprehensive common language for truly efficient collaboration"
 
   - icon:
     title: "Break Down Barriers"
-    text: "A comprehensive common language for truly efficient collaboration"
+    text: "An innovative platform to solve the communication barriers between health care providers and complex patients."
 
   - icon:
     title: "Driven by Passion"
-    text: "A comprehensive common language for truly efficient collaboration"
+    text: "We are passionate about providing a tool so that health care providers and patients can finally be on the same page."
