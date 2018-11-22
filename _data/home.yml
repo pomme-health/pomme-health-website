@@ -1,0 +1,5 @@
+heroBanner:
+  title: "POMMe-Health"
+  text: "Text goes gere"
+  buttonText: "Learn More"
+  image: "../images/uploads/banner.jpg"

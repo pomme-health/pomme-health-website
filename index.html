@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-  <section class="jumbotron-banner">
+  <section class="jumbotron-banner" style="background: linear-gradient(to right, rgba(255, 255, 255, 1) , rgba(255, 255, 255, .2)), url({{site.data.home.heroBanner.image}}); background-size: cover; background-position: center right;">
     <div class="jumbotron-container wrapper grid island">
       <div class="unit xs-1 s-1 m-1 l-1-2">
-        <h1 class="yotta">{{site.data.site.heroBanner.heading}}</h1>
-        <p class="milli">{{site.data.site.heroBanner.text}}</p>
-        <a class="nav-btn" href="#">Learn More</a>
+        <h1 class="yotta">{{site.data.home.heroBanner.title}}</h1>
+        <p class="milli">{{site.data.home.heroBanner.text}}</p>
+        <a class="nav-btn" href="#">{{site.data.home.heroBanner.buttonText}}</a>
       </div>
     </div>
   </section>
