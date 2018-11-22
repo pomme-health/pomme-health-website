@@ -1,0 +1,5 @@
+backend:
+  name: github
+  repo: pomme-health/pomme-health-website # Path to your GitHub repository
+
+media_folder: "images/uploads"
