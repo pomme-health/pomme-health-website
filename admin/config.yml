@@ -48,3 +48,17 @@ collections:
           - label: "Body"
             name: "body"
             widget: "markdown"
+      - label: "Collaborative"
+        name: "collaborative"
+        file: collaborative.md
+        fields:
+          - label: "Body"
+            name: "body"
+            widget: "markdown"
+      - label: "Continuous"
+        name: "continuous"
+        file: continuous.md
+        fields:
+          - label: "Body"
+            name: "body"
+            widget: "markdown"
