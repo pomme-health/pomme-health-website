@@ -1,18 +1,10 @@
 heroBanner:
-  title: "POMMe-Health"
-  text: "Text goes gere"
-  buttonText: "Learn More"
-  image: "./images/uploads/banner.jpg"
-
+  image: ./images/uploads/banner.jpg
+  text: Text goes gere
+  title: POMMe-Health
 homeCards:
-  - icon: "/images/uploads/common-language-icon.svg"
-    title: "Common Language"
-    text: "A comprehensive common language for truly efficient collaboration"
-
-  - icon:
-    title: "Break Down Barriers"
-    text: "A comprehensive common language for truly efficient collaboration"
-
-  - icon:
-    title: "Driven by Passion"
-    text: "A comprehensive common language for truly efficient collaboration"
+  - icon: /images/uploads/common-language-icon.svg
+    textdf: Text goes here
+    title: Common Language
+  - title: Break Down Barriers
+  - title: Driven by Passion
