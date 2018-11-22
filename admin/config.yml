@@ -38,3 +38,13 @@ collections:
               - label: "Image"
                 name: "image"
                 widget: "image"
+              - label: "Home page"
+                name: "home"
+                file: "_data/home.yml"
+      - label: "Comprehensive"
+        name: "comprehensive"
+        file: comprehensive.md
+        fields:
+          - label: "Body"
+            name: "body"
+            widget: "markdown"
