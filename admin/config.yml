@@ -51,13 +51,18 @@ collections:
               - label: "Text"
                 name: "text"
                 widget: "string"
-          - label: "About"
-            name: "about"
-            file: "_data/about.yml"
+      - label: "About"
+        name: "about"
+        file: "_data/about.yml"
+        fields:
+          - label: "History"
+            name: "history"
+            widget: "object"
             fields:
-              - label: "History"
+              - label: "History Text"
                 name: "historyText"
                 widget: "string"
+
       - label: "Comprehensive"
         name: "comprehensive"
         file: comprehensive.md
