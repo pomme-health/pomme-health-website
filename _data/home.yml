@@ -7,5 +7,7 @@ homeCards:
   - icon: /images/uploads/common-language-icon.svg
     textdf: Text goes here
     title: Common Language
-  - title: Break Down Barriers
-  - title: Driven by Passion
+  - icon: /images/uploads/common-language-icon.svg
+    title: Break Down Barriers
+  - icon: /images/uploads/common-language-icon.svg
+    title: Driven by Passion
