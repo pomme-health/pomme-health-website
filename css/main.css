@@ -58,11 +58,7 @@ a {
 /*------------Banner-------------*/
 
 .jumbotron-banner {
-  background: linear-gradient(to right, rgba(255, 255, 255, 1) , rgba(255, 255, 255, .2)), url(../images/background-test.jpg);
   height: 500px;
-  background-size: cover;
-  background-position: center right;
-
 }
 
 .jumbotron-banner h1, .jumbotron-banner p {

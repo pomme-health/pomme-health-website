@@ -14,4 +14,4 @@ collections:
         fields:
           - label: "Copyright"
             name: "copyright"
-            width: "string"
+            widget: "string"
