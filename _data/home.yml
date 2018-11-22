@@ -2,7 +2,7 @@ heroBanner:
   title: "POMMe-Health"
   text: "Text goes gere"
   buttonText: "Learn More"
-  image: "../images/uploads/banner.jpg"
+  image: "./images/uploads/banner.jpg"
 
 homeCards:
   - icon: https://placeholidit.com/50x50

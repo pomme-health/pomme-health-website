@@ -38,9 +38,6 @@ collections:
               - label: "Image"
                 name: "image"
                 widget: "image"
-              - label: "Home page"
-                name: "home"
-                file: "_data/home.yml"
           - label: "Home Cards"
             name: "homeCards"
             widget: "list"
@@ -53,8 +50,14 @@ collections:
                 widget: "string"
               - label: "Text"
                 name: "text"
-                widget: "strong"
-
+                widget: "string"
+          - label: "About"
+            name: "about"
+            file: "_data/about.yml"
+            fields:
+              - label: "History"
+                name: "historyText"
+                widget: "string"
       - label: "Comprehensive"
         name: "comprehensive"
         file: comprehensive.md
