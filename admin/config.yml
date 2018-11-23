@@ -107,6 +107,14 @@ collections:
                 name: "historyText"
                 widget: "string"
 
+      - label: "Contact Us"
+        name: "contact"
+        file: "_data/contact.yml"
+        fields:
+          - label: "Title"
+          - name: "title"
+          - widget: "string"
+
       - label: "Comprehensive"
         name: "comprehensive"
         file: comprehensive.md
@@ -128,7 +136,4 @@ collections:
           - label: "Body"
             name: "body"
             widget: "markdown"
-      - label: "Contact Us"
-        name: "contact-us"
-        file: "_data/contact.yml"
-        fields:
+]
