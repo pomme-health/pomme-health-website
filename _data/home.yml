@@ -3,6 +3,7 @@ heroBanner:
   image: ./images/uploads/banner.jpg
   text: Text goes here
   title: POMMe-Health
+
 homeCards:
   - icon: /images/uploads/common-language-icon.svg
     text: A comprehensive common language for truly efficient collaboration.
@@ -17,6 +18,7 @@ homeCards:
       We are passionate about providing a tool so that health care providers and
       patients can finally be on the same page.
     title: Driven by Passion
+
 homeSections:
   - leadingText: Comprehensive
     mainSectionHeader: 'The complete physical, emotional and social view of a patient'
@@ -31,7 +33,7 @@ homeSections:
     mainSectionHeader: 'Sharing ideas, not just collating information'
     mainSectionText: >-
       True collaboration is the exchange of information and ideas between team
-      members to develop the best plan for the delivery of healthcare. 
+      members to develop the best plan for the delivery of healthcare.
       Collaboration involves trust and transparency; hallmarks of the highest
       level of integrated teamwork
     pullClass: unit-pull-m-1-2
@@ -46,3 +48,8 @@ homeSections:
     pullClass: m-1-2
     pushClass: m-1-2
     sectionButton: Learn More
+
+getInTouch:
+  title: Get in Touch
+  text: Enter your email to get in touch with us.
+  button: Send
