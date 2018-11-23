@@ -128,3 +128,7 @@ collections:
           - label: "Body"
             name: "body"
             widget: "markdown"
+      - label: "Contact Us"
+        name: "contact-us"
+        file: "_data/contact.yml"
+        fields:
