@@ -1,7 +1,7 @@
 heroBanner:
   buttonText: Learn More
   image: ./images/uploads/banner.jpg
-  text: Hello Ksenia
+  text: Hello Frank
   title: POMMe-Health
 homeCards:
   - icon: /images/uploads/common-language-icon.svg
