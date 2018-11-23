@@ -1,35 +1,29 @@
 ---
 layout: default
 meta: This is the About page for the POMMe-Health.
+mission: Mission
+mission-content: Lorem ipsum dolor sit amet. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+values: Values
+values-content: Lorem ipsum dolor sit amet. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+card-title-one: What's in the News
+card-par-one: Lorem ipsum dolor sit amet. consectetur adipiscing elit.
+card-title-two: News
+card-par-two: Lorem ipsum dolor sit amet. consectetur adipiscing elit.
+card-title-three: News
+card-par-three: Lorem ipsum dolor sit amet. consectetur adipiscing elit.
+section-title: Leadership
+section-content: Lorem ipsum dolor sit amet. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
 ---
-<div class="features-banner relative">
-  <div class="wrapper absolute pin-c">
-    <h2 class="gutter">About</h2>
-  </div>
-</div>
 
 {% for about in site.data.about-text %}
-{% include about-text.html data=about %}
+{% include about-text.html data=about-text %}
 {% endfor %}
 
-<div class="grid grid-middle wrapper">
-{% for about in site.data.mission-values %}
-{% include mission-values.html data=about %}
-{% endfor %}
-</div>
+{% include mission-values.html %}
 
+{% include about-section.html %}
 
-<div class="grid wrapper">
-{% for about in site.data.about-section %}
-{% include about-section.html data=about %}
-{% endfor %}
-</div>
-
-<article class="island wrapper">
+<article class="island">
   <h2 class="push-1-2 giga">In the News</h2>
-  <div class="grid">
-  {% for about in site.data.about-cards %}
-  {% include about-cards.html data=about %}
-  {% endfor %}
-  </div>
+  {% include about-cards.html %}
 </article>
