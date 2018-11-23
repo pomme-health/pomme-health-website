@@ -17,9 +17,6 @@ homeCards:
       We are passionate about providing a tool so that health care providers and
       patients can finally be on the same page.
     title: Driven by Passion
-  - icon: /images/uploads/common-language-icon.svg
-    text: Test
-    title: Test
 homeSections:
   - leadingText: Comprehensive
     mainSectionHeader: 'The complete physical, emotional and social view of a patient'
