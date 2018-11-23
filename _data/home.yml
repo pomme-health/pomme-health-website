@@ -1,9 +1,8 @@
 heroBanner:
   buttonText: Learn More
   image: ./images/uploads/banner.jpg
-  text: Text goes here
+  text: Hello Ksenia
   title: POMMe-Health
-
 homeCards:
   - icon: /images/uploads/common-language-icon.svg
     text: A comprehensive common language for truly efficient collaboration.
@@ -18,7 +17,6 @@ homeCards:
       We are passionate about providing a tool so that health care providers and
       patients can finally be on the same page.
     title: Driven by Passion
-
 homeSections:
   - leadingText: Comprehensive
     mainSectionHeader: 'The complete physical, emotional and social view of a patient'
@@ -48,8 +46,7 @@ homeSections:
     pullClass: m-1-2
     pushClass: m-1-2
     sectionButton: Learn More
-
 getInTouch:
-  title: Get in Touch
-  text: Enter your email to get in touch with us.
   button: Send
+  text: Enter your email to get in touch with us.
+  title: Get in Touch
