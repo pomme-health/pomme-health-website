@@ -51,6 +51,7 @@ homeSections:
     pullClass: m-1-2
     pushClass: m-1-2
     sectionButton: Learn More
+    image: /images/tracking.jpg
 
 getInTouch:
   button: Send
