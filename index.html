@@ -1,17 +1,18 @@
 ---
 layout: default
 ---
-  <section class="jumbotron-banner" style="background: linear-gradient(to right, rgba(255, 255, 255, 1) , rgba(255, 255, 255, .2)), url({{site.data.home.heroBanner.image}}); background-size: cover; background-position: center right;">
-    <div class="jumbotron-container wrapper grid island">
-      <div class="unit xs-1 s-1 m-1 l-1-2">
-        <h1 class="yotta">{{site.data.home.heroBanner.title}}</h1>
-        <p class="milli">{{site.data.home.heroBanner.text}}</p>
-        <a class="nav-btn" href="#">{{site.data.home.heroBanner.buttonText}}</a>
-      </div>
+<section class="jumbotron-banner" style="background: linear-gradient(to right, rgba(53, 60, 81, .85) , rgba(3, 170, 157, .5)), url({{site.data.home.heroBanner.image}}); background-size: cover; background-position: center right;">
+  <div class="jumbotron-container wrapper grid island">
+    <div class="unit xs-1 s-1 m-1 l-1-2">
+      <h1 class="yotta">{{site.data.home.heroBanner.title}}</h1>
+      <p class="">{{site.data.home.heroBanner.text}}</p>
+      <a class="nav-btn" href="#">{{site.data.home.heroBanner.buttonText}}</a>
     </div>
-  </section>
+  </div>
+</section>
 
   <section class="wrapper pad-t-2 pad-b-2 gutter-1-2 home-cards">
+    <p class="pad-b leading-paragraph text-center peta">{{site.data.home.sectionTitle}}</p>
     <ul class="list-group grid grid-top">
       {% for cards in site.data.home.homeCards %}
         <li class="unit xs-1 s-1 m-1-3 l-1-3 text-center island-1-2">
@@ -26,12 +27,12 @@ layout: default
     </section>
 
   {% for sections in site.data.home.homeSections %}
-  <section class="home-panels {{sections.sectionPadding}}{{sections.sectionColour}}">
+  <section class="home-panels {{sections.sectionColour}}">
     <div class="grid grid-middle wrapper">
       <div class="unit xs-1 s-1 m-1-2 {{sections.pushClass}}">
-        <img class="img-flex" src="https://placehold.it/700x600" alt="">
+        <img class="img-flex" src="{{site.baseurl}}{{sections.image}}" alt="">
       </div>
-      <div class="unit xs-1 s-1 m-1-2 {{sections.pullClass}} island-1-2">
+      <div class="unit xs-1 s-1 m-1-2 {{sections.pullClass}} island">
         <p class="push-1-2 bold">{{sections.leadingText}}</p>
         <h2>{{sections.mainSectionHeader}}</h2>
         <p>{{sections.mainSectionText}}</p>
@@ -41,6 +42,8 @@ layout: default
       </div>
     </div>
   </section>
+
   {% endfor %}
+  <p>{{site.data.home.testing}}</p>
   {% include get-in-touch.html %}
   </section>
