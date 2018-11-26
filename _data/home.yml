@@ -1,8 +1,11 @@
 heroBanner:
+  title: Bringing people together one piece at a time.
+  text: POMMe-Health allows health care professionals to communicate using one common language to spend time on what really matters the patient.
   buttonText: Learn More
-  image: ./images/uploads/banner.jpg
-  text: Hello Frank
-  title: POMMe-Health
+  image: ./images/hero-banner.jpg
+
+sectionTitle: An innovative platform to solve the communication barriers between health care providers and complex patients.
+
 homeCards:
   - icon: /images/uploads/common-language-icon.svg
     text: A comprehensive common language for truly efficient collaboration.
@@ -17,6 +20,7 @@ homeCards:
       We are passionate about providing a tool so that health care providers and
       patients can finally be on the same page.
     title: Driven by Passion
+
 homeSections:
   - leadingText: Comprehensive
     mainSectionHeader: 'The complete physical, emotional and social view of a patient'
@@ -27,6 +31,7 @@ homeSections:
     pullClass: m-1-2
     pushClass: m-1-2
     sectionButton: Learn More
+    image: /images/patients.jpg
   - leadingText: Collaborative
     mainSectionHeader: 'Sharing ideas, not just collating information'
     mainSectionText: >-
@@ -37,7 +42,7 @@ homeSections:
     pullClass: unit-pull-m-1-2
     pushClass: unit-push-m-1-2
     sectionButton: Learn More
-    sectionPadding: section-padding
+    image: /images/sharing-ideas.jpg
   - leadingText: Continuous
     mainSectionHeader: Tracking progress over time
     mainSectionText: >-
@@ -46,6 +51,7 @@ homeSections:
     pullClass: m-1-2
     pushClass: m-1-2
     sectionButton: Learn More
+
 getInTouch:
   button: Send
   text: Enter your email to get in touch with us.
