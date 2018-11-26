@@ -61,7 +61,7 @@ a {
 }
 
 .jumbotron-banner h1 {
-  color: #fff;
+  color: var(--color-light-gray);
   font-weight: 300;
 }
 
