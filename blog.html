@@ -1,0 +1,24 @@
+---
+layout: default
+---
+  <section class="small-banner healthcare-banner">
+    <div class="small-banner-container wrapper grid island">
+      <div class="unit xs-1 s-1 m-1 l-1-2">
+        <h1 class="yotta push-0">Blog Posts</h1>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrapper pad-t-2 pad-b-2">
+    <div class="pad-b-2">
+      <a class="blog-back" href="{{site.baseurl}}/blog">Back to Blog</a>
+    </div>
+    <ul class="list-group">
+      {% for post in site.posts %}
+        <li>
+          <a class="giga blog-title" href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+          <p>{{post.desc}}</p>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>

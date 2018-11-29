@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: blog
 title: "First Blog Post"
-desc: "My first blog post ever"
+desc: "My first blog post ever. I really love my new blog"
 ---
 
 # Comprehensive
