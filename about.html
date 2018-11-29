@@ -4,37 +4,37 @@ title: POMMe-Health About
 meta: This is the About page for the POMMe-Health.
 ---
 
-<section id="about-history" class="pad-t-2 pad-b-2 max-length">
-  <h2>{{site.data.about.history.historyTitle}}</h2>
-  <p>{{site.data.about.history.historyText}}</p>
-</section>
+  <section id="about-history" class="pad-t-2 pad-b-2 max-length">
+    <h2>{{site.data.about.history.historyTitle}}</h2>
+    <p>{{site.data.about.history.historyText}}</p>
+  </section>
 
-<section id=about-mission-values class="pad-b-2">
-  <div class="grid grid-middle wrapper">
-  {% for about in site.data.mission-values %}
-  {% include mission-values.html data=about %}
-  {% endfor %}
-  </div>
-</section>
-
-<section id="about-leadership" class="pad-b-2">
-  <div class="grid grid-middle wrapper">
-  {% for about in site.data.about-section %}
-  {% include about-section.html data=about %}
-  {% endfor %}
-  </div>
-</section>
-
-<article id="about-news" class="island wrapper">
-  <h2 class="push-1-2 giga">What's New</h2>
-  <div class="pad-t-2 pad-b-2 unit s-1 m-1-3 l-1-3 island-1-2">
-    {% for post in site.posts limit: 3 %}
-      <a class="ib" href="{{site.baseurl}}{{post.url}}">
-        <div class="card-shadow island-1-2">
-          <h3 class="push-0 giga">{{post.title}}</h3>
-          <p class="push-0">{{post.desc}}</p>
-        </div>
-      </a>
+  <section id=about-mission-values class="pad-b-2">
+    <div class="grid grid-middle wrapper">
+    {% for about in site.data.mission-values %}
+    {% include mission-values.html data=about %}
     {% endfor %}
-  </div>
-</article>
+    </div>
+  </section>
+
+  <section id="about-leadership" class="pad-b-2">
+    <div class="grid grid-middle wrapper">
+    {% for about in site.data.about-section %}
+    {% include about-section.html data=about %}
+    {% endfor %}
+    </div>
+  </section>
+
+  <article id="about-news" class="island wrapper">
+    <h2 class="push-1-2 giga">What's New</h2>
+      {% for post in site.posts limit: 3 %}
+      <div class="pad-t-2 pad-b-2 unit s-1 m-1-3 l-1-3 island-1-2">
+        <a class="ib" href="{{site.baseurl}}{{post.url}}">
+          <div class="card-shadow island-1-2">
+            <h3 class="push-0 giga">{{post.title}}</h3>
+            <p class="push-0">{{post.desc}}</p>
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+  </article>
