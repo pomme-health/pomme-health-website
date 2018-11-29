@@ -9,16 +9,16 @@ layout: default
     </div>
   </section>
 
-  <section class="wrapper pad-t-2 pad-b-2">
+  <section class="max-length pad-t-2 pad-b-2">
     <div class="pad-b-2">
       <a class="blog-back" href="{{site.baseurl}}/blog">Back to Blog</a>
     </div>
-    <ul class="list-group">
       {% for post in site.posts %}
-        <li>
-          <a class="giga blog-title" href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
-          <p>{{post.desc}}</p>
-        </li>
+          <a class="blog-card ib" href="{{site.baseurl}}{{post.url}}">
+            <div  class="">
+              <p class="push-0 giga blog-title">{{post.title}}</p>
+              <p class="push-0">{{post.desc}}</p>
+            </div>
+          </a>
       {% endfor %}
-    </ul>
   </section>
