@@ -16,6 +16,11 @@ a {
   display: inline-block;
 }
 
+img {
+  width: 100%;
+  display: block;
+}
+
 /* Buttons */
 /*Main ghost buttons from home page*/
 .main-btn {
@@ -197,6 +202,18 @@ footer a:hover {
 
 .card-shadow {
   box-shadow: 3px 3px 10px #e2e2e2;
+}
+
+/* About Page */
+
+.blog-title {
+  font-weight: 700;
+  color: var(--color-dark-gray);
+  text-decoration: underline;
+}
+
+.blog-back {
+  color: black;
 }
 
 @media only screen and (min-width: 38em) {

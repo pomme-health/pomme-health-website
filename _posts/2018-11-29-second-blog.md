@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "Second Blog Post"
 desc: "My second blog post ever"
 ---
