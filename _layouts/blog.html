@@ -14,7 +14,10 @@
 </head>
 <body>
   {% include  main-navigation.html %}
-  <section class="wrapper pad-t-2 pad-b-2">
+  <section class="max-length pad-t-2 pad-b-2">
+    <div class="push-2">
+      <a class="blog-back" href="{{site.baseurl}}/blog">Back to Blog</a>
+    </div>
     {{content}}
   </section>
   {% include  footer.html %}
