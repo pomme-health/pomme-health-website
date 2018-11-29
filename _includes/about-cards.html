@@ -1,8 +1,10 @@
 <div class="pad-t-2 pad-b-2 unit s-1 m-1-3 l-1-3 island-1-2">
-  <a href="#">
-    <div class="card-shadow island-1-2">
-      <h3 class="push-1-8 mega">{{include.data.aboutHeader}}</h3>
-      <p class="push-1-4 about-text micro">{{include.data.aboutText}}</p>
-    </div>
-  </a>
+  {% for post in site.posts limit: 3 %}
+    <a class="ib" href="{{site.baseurl}}{{post.url}}">
+      <div class="card-shadow island-1-2">
+        <h3 class="push-0 giga">{{post.title}}</h3>
+        <p class="push-0">{{post.desc}}</p>
+      </div>
+    </a>
+    {% endfor %}
 </div>
