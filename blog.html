@@ -10,15 +10,12 @@ layout: default
   </section>
 
   <section class="max-length pad-t-2 pad-b-2">
-    <div class="pad-b-2">
-      <a class="blog-back" href="{{site.baseurl}}/blog">Back to Blog</a>
-    </div>
-      {% for post in site.posts %}
-          <a class="blog-card ib" href="{{site.baseurl}}{{post.url}}">
-            <div  class="">
-              <p class="push-0 giga blog-title">{{post.title}}</p>
-              <p class="push-0">{{post.desc}}</p>
-            </div>
-          </a>
-      {% endfor %}
+    {% for post in site.posts %}
+        <a class="blog-card ib push" href="{{site.baseurl}}{{post.url}}">
+          <div  class="">
+            <p class="push-0 giga blog-title">{{post.title}}</p>
+            <p class="push-0">{{post.desc}}</p>
+          </div>
+        </a>
+    {% endfor %}
   </section>
