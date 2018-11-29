@@ -202,6 +202,24 @@ footer a:hover {
 
 .card-shadow {
   box-shadow: 3px 3px 10px #e2e2e2;
+  transition: all .2s ease;
+}
+
+.whats-new-card p {
+  color: var(--color-dark-gray);
+}
+
+.whats-new-card h3 {
+  color: var(--color-dark-gray);
+  transition: all .2s ease;
+}
+
+.card-shadow:hover .whats-new-card h3 {
+  color: var(--color-blue)
+}
+
+.card-shadow:hover {
+  transform: scale(1.03);
 }
 
 /* About Page */
