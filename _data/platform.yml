@@ -1,5 +1,5 @@
 platformSections:
-    mainSectionHeader: 'The complete physical, emotional and social view of a patient'
+  - mainSectionHeader: 'The complete physical, emotional and social view of a patient'
     mainSectionText: >-
       Common Language based on functionality
     pullClass: m-1-2
