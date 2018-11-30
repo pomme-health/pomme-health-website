@@ -1,0 +1,38 @@
+platformSections:
+    mainSectionHeader: 'The complete physical, emotional and social view of a patient'
+    mainSectionText: >-
+      Common Language based on functionality
+    pullClass: m-1-2
+    pushClass: m-1-2
+    image: /images/patients.jpg
+  - mainSectionHeader: 'Sharing ideas, not just collating information'
+    mainSectionText: >-
+      Efficient – rapid input and live-time collation of information for efficient identification of patient issues needing attention
+    pullClass: unit-pull-m-1-2
+    pushClass: unit-push-m-1-2
+    sectionButton: Learn More
+    image: /images/sharing-ideas.jpg
+  - mainSectionHeader: Tracking progress over time
+    mainSectionText: >-
+      Links to supplementary tools and content at appropriate points in the clinical    workflow (e.g. diagnostic tools, patient education materials).
+    pullClass: m-1-2
+    pushClass: m-1-2
+    image: /images/tracking.jpg
+  - mainSectionHeader: Develop coordinated care Action Plan
+    mainSectionText: >-
+      Support your decision with objective information and data. Accountability measures for follow up
+    pullClass: m-1-2
+    pushClass: m-1-2
+    image: /images/tracking.jpg
+  - mainSectionHeader: Track Changes
+    mainSectionText: >-
+      Intervene sooner when subtle changes are recognized in patient functioning
+    pullClass: m-1-2
+    pushClass: m-1-2
+    image: /images/tracking.jpg
+  - mainSectionHeader: Continuous Quality Improvement
+    mainSectionText: >-
+      Metrics of functional outcomes. Measurement and management for optimal patient outcomes
+    pullClass: m-1-2
+    pushClass: m-1-2
+    image: /images/tracking.jpg
