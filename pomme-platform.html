@@ -7,19 +7,17 @@ layout: default
         <h1 class="yotta push-0">POMMe Platform</h1>
       </div>
     </div>
-
-  </div>
-</section>
-{% for platform in site.data.platform.platformSections %}
-<section class="home-panels {{platform.sectionColour}}">
-  <div class="grid grid-middle wrapper">
-    <div class="unit xs-1 s-1 m-1-2 {{platform.pushClass}}">
-      <img class="img-flex" src="{{site.baseurl}}{{platform.image}}" alt="">
+  </section>
+  {% for platform in site.data.platform.platformSections %}
+  <section class="home-panels {{platform.sectionColour}}">
+    <div class="grid grid-middle wrapper">
+      <div class="unit xs-1 s-1 m-1-2 {{platform.pushClass}}">
+        <img class="img-flex" src="{{site.baseurl}}{{platform.image}}" alt="">
+      </div>
+      <div class="unit xs-1 s-1 m-1-2 {{platform.pullClass}} island">
+        <h2>{{platform.mainSectionHeader}}</h2>
+        <p>{{platform.mainSectionText}}</p>
+      </div>
     </div>
-    <div class="unit xs-1 s-1 m-1-2 {{platform.pullClass}} island">
-      <h2>{{platform.mainSectionHeader}}</h2>
-      <p>{{platform.mainSectionText}}</p>
-    </div>
-  </div>
-</section>
-{% endfor %}
+  </section>
+  {% endfor %}
