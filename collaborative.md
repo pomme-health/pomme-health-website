@@ -10,4 +10,7 @@
 
 	Working together allows for better informed decision making.
 
-	Together, we are greater as a whole.
+Allowing all providers and the patient to speak the same language allows for true collaboration.
+Working together allows for better informed decision making.
+
+Together, we are greater as a whole.

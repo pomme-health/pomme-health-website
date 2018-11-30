@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<section class="small-banner">
+  <div class="small-banner-container wrapper grid island">
+    <div class="unit xs-1 s-1 m-1 l-1-2">
+      <h1 class="yotta push-0">Health Care Managers</h1>
+    </div>
+  </div>
+</section>
+
+{% for patients in site.data.patients-family %}
+{% include patients-family.html data=patients %}
+{% endfor %}
