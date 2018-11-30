@@ -3,14 +3,5 @@
 	Relevant information is hidden in the medical file. Providers work in silos.
 
 	Allowing all providers and the patient to speak the same language allows for true collaboration.
-	Working together allows for better informed decision making.
-	Relevant information is hidden in the medical file. Providers work in silos.
-
-	Allowing all providers and the patient to speak the same language allows for true collaboration.
 
 	Working together allows for better informed decision making.
-
-Allowing all providers and the patient to speak the same language allows for true collaboration.
-Working together allows for better informed decision making.
-
-Together, we are greater as a whole.
