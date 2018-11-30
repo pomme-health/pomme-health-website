@@ -1,15 +1,14 @@
----
-layout: main-sections
-title: "Collaborative"
-desc: "Lorem ipsum"
----
+**Interdisciplinary teams don’t communicate effectively. They are busy and don’t speak the same language.**
+	As a result, the health care team is not truly aware of how well the patient is functioning.
+	Relevant information is hidden in the medical file. Providers work in silos.
 
-# Collaborative
+	Allowing all providers and the patient to speak the same language allows for true collaboration.
+	Working together allows for better informed decision making.
+	Relevant information is hidden in the medical file. Providers work in silos.
 
-Interdisciplinary teams don’t communicate effectively. They are busy and don’t speak the same language.
+	Allowing all providers and the patient to speak the same language allows for true collaboration.
 
-As a result, the health care team is not truly aware of how well the patient is functioning.
-Relevant information is hidden in the medical file. Providers work in silos.
+	Working together allows for better informed decision making.
 
 Allowing all providers and the patient to speak the same language allows for true collaboration.
 Working together allows for better informed decision making.
