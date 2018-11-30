@@ -33,6 +33,6 @@ platformSections:
   - mainSectionHeader: Continuous Quality Improvement
     mainSectionText: >-
       Metrics of functional outcomes. Measurement and management for optimal patient outcomes
-    pullClass:unit-pull-m-1-2
+    pullClass: unit-pull-m-1-2
     pushClass: unit-push-m-1-2
     image: /images/tracking.jpg

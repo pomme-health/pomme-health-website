@@ -8,15 +8,15 @@ layout: default
     </div>
   </div>
 </section>
-{% for sections in site.data.platform.platformSections %}
-<section class="home-panels {{sections.sectionColour}}">
+{% for platform in site.data.platform.platformSections %}
+<section class="home-panels {{platform.sectionColour}}">
   <div class="grid grid-middle wrapper">
-    <div class="unit xs-1 s-1 m-1-2 {{sections.pushClass}}">
-      <img class="img-flex" src="{{site.baseurl}}{{sections.image}}" alt="">
+    <div class="unit xs-1 s-1 m-1-2 {{platform.pushClass}}">
+      <img class="img-flex" src="{{site.baseurl}}{{platform.image}}" alt="">
     </div>
-    <div class="unit xs-1 s-1 m-1-2 {{sections.pullClass}} island">
-      <h2>{{sections.mainSectionHeader}}</h2>
-      <p>{{sections.mainSectionText}}</p>
+    <div class="unit xs-1 s-1 m-1-2 {{platform.pullClass}} island">
+      <h2>{{platform.mainSectionHeader}}</h2>
+      <p>{{platform.mainSectionText}}</p>
     </div>
   </div>
 </section>
