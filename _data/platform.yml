@@ -27,8 +27,8 @@ platformSections:
   - mainSectionHeader: Track Changes
     mainSectionText: >-
       Intervene sooner when subtle changes are recognized in patient functioning
-    pullClass: unit-pull-m-1-2
-    pushClass: unit-push-m-1-2
+    pullClass: m-1-2
+    pushClass: m-1-2
     image: /images/tracking.jpg
   - mainSectionHeader: Continuous Quality Improvement
     mainSectionText: >-

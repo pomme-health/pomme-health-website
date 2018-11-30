@@ -94,7 +94,7 @@ collections:
         file: "_data/platform.yml"
         fields:
           - label: "Platform Sections"
-            name: "platform"
+            name: "platformSections"
             widget: "list"
             fields:
               - label: "Title"
@@ -102,12 +102,6 @@ collections:
                 widget: "string"
               - label: "Text"
                 name: "mainSectionText"
-                widget: "string"
-              - label: "Button Text"
-                name: "sectionButton"
-                widget: "string"
-              - label: "Button Link"
-                name: "mainSectionLink"
                 widget: "string"
               - label: "Image"
                 name: "image"
@@ -125,6 +119,16 @@ collections:
                 widget: "string"
               - label: "History Text"
                 name: "historyText"
+                widget: "string"
+          - label: "Mission"
+            name: "mission"
+            widget: "object"
+            fields:
+              - label: "Mission Title"
+                name: "aboutHeader"
+                widget: "string"
+              - label: "Mission Text"
+                name: "aboutText"
                 widget: "string"
 
       - label: "Comprehensive"
