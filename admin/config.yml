@@ -126,6 +126,16 @@ collections:
               - label: "History Text"
                 name: "historyText"
                 widget: "string"
+          - label: "Mission"
+            name: "mission"
+            widget: "object"
+            fields:
+              - label: "Mission Title"
+                name: "aboutHeader"
+                widget: "string"
+              - label: "Mission Text"
+                name: "aboutText"
+                widget: "string"
 
       - label: "Comprehensive"
         name: "comprehensive"
