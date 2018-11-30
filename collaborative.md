@@ -9,5 +9,3 @@
 	Working together allows for better informed decision making.
 
 	Together, we are greater as a whole.
-
-#
