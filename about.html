@@ -11,8 +11,16 @@ meta: This is the About page for the POMMe-Health.
 
   <section id=about-mission-values class="pad-b-2">
     <div class="grid grid-middle wrapper">
-    {% for about in site.data.mission-values %}
-    {% include mission-values.html data=about %}
+    {% for values in site.data.about.mission %}
+      <div class="unit s-1 m-1-2 l-1-2 island text-center">
+        <i class="icon i-64 push-1-2">
+          <img src="https://placehold.it/32x32" alt="">
+        </i>
+        <div class="">
+          <h3 class="push-1-4 m-v-h3">{{values.aboutHeader}}</h3>
+          <p class="push-0">{{values.aboutText}}</p>
+        </div>
+      </div>
     {% endfor %}
     </div>
   </section>
