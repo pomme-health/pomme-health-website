@@ -1,25 +1,23 @@
 heroBanner:
-  title: Bringing people together one piece at a time.
-  text: POMMe-Health allows health care professionals to communicate using one common language to spend time on what really matters the patient.
+  title: Measurably improving a patient's quality of life.
+  text: POMMe-Health provides an innovative platform to solve the complex puzzle of inefficient communication. Health care professionals and patients can easily share information using one common language.
   buttonText: Learn More
   image: ./images/hero-banner.jpg
 
-sectionTitle: An innovative platform to solve the communication barriers between health care providers and complex patients.
+sectionTitle: Health care decisions driven by information from both the clinician and the patient.
 
 homeCards:
   - icon: /images/uploads/common-language-icon.svg
-    text: A comprehensive common language for truly efficient collaboration.
-    title: Common Language
+    text: Breaking down barriers between health care providers and complex patients.A comprehensive common language for truly efficient collaboration.
+    title: Break Down Barriers
   - icon: /images/uploads/barriers-icon.svg
     text: >-
-      An innovative platform to solve the communication barriers between health
-      care providers and complex patients
-    title: Break Down Barriers
+      Creating the environment for informed health care decisions. Providing the right intervention at the right time for the right reason.
+    title: Informed Decisions
   - icon: /images/uploads/driven-by-passion-icon.svg
     text: >-
-      We are passionate about providing a tool so that health care providers and
-      patients can finally be on the same page.
-    title: Driven by Passion
+      Measuring improvements in functioning and quality of life by objective data. Resource allocation managed by data analytics.
+    title: Driven by Data
 
 homeSections:
   - leadingText: Comprehensive
