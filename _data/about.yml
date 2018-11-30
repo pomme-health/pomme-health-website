@@ -1,3 +1,5 @@
 history:
-  historyTitle: History
   historyText: History text goes here
+  historyTitle: History
+mission:
+  aboutHeader: Mission test
