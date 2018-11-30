@@ -1,23 +1,24 @@
 ---
 layout: default
 ---
-<section class="small-banner">
-  <div class="small-banner-container wrapper grid island">
-    <div class="unit xs-1 s-1 m-1 l-1-2">
-      <h1 class="yotta push-0">POMMe Platform</h1>
+  <section class="small-banner">
+    <div class="small-banner-container wrapper grid island">
+      <div class="unit xs-1 s-1 m-1 l-1-2">
+        <h1 class="yotta push-0">POMMe Platform</h1>
+      </div>
     </div>
-  </div>
-</section>
-{% for sections in site.data.platform.platformSections %}
-<section class="home-panels {{sections.sectionColour}}">
-  <div class="grid grid-middle wrapper">
-    <div class="unit xs-1 s-1 m-1-2 {{sections.pushClass}}">
-      <img class="img-flex" src="{{site.baseurl}}{{sections.image}}" alt="">
+  </section>
+
+  {% for platform in site.data.platform.platformSections %}
+  <section class="home-panels {{platform.sectionColour}}">
+    <div class="grid grid-middle wrapper">
+      <div class="unit xs-1 s-1 m-1-2 {{platform.pushClass}}">
+        <img class="img-flex" src="{{site.baseurl}}{{platform.image}}" alt="">
+      </div>
+      <div class="unit xs-1 s-1 m-1-2 {{platform.pullClass}} island">
+        <h2>{{platform.mainSectionHeader}}</h2>
+        <p>{{platform.mainSectionText}}</p>
+      </div>
     </div>
-    <div class="unit xs-1 s-1 m-1-2 {{sections.pullClass}} island">
-      <h2>{{sections.mainSectionHeader}}</h2>
-      <p>{{sections.mainSectionText}}</p>
-    </div>
-  </div>
-</section>
-{% endfor %}
+  </section>
+  {% endfor %}
