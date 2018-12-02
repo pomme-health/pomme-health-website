@@ -130,6 +130,16 @@ collections:
               - label: "Mission Text"
                 name: "aboutText"
                 widget: "string"
+          - label: "Leadership"
+            name: "leadership"
+            widget: "object"
+            fields:
+              - label: "leadership Title"
+                name: "aboutHeader"
+                widget: "string"
+              - label: "leadership Text"
+                name: "aboutText"
+                widget: "string"
 
       - label: "Comprehensive"
         name: "comprehensive"

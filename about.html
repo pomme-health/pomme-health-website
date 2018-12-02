@@ -27,8 +27,14 @@ meta: This is the About page for the POMMe-Health.
 
   <section id="about-leadership" class="pad-b-2">
     <div class="grid grid-middle wrapper">
-    {% for about in site.data.about-section %}
-    {% include about-section.html data=about %}
+    {% for about in site.data.leadership %}
+      <div class="unit xs-1 s-1 m-1-2">
+        <img class="img-flex" src="https://placehold.it/700x600" alt="">
+      </div>
+      <div class="unit xs-1 s-1 m-1-2  island">
+        <h2>{{about-section.aboutHeader}}</h2>
+        <p class="milli">{{about-section.aboutText}}</p>
+      </div>
     {% endfor %}
     </div>
   </section>
