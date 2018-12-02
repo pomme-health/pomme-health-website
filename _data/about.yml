@@ -1,14 +1,12 @@
 history:
-  historyTitle: History
   historyText: History text goes here
-
-
+  historyTitle: History
 mission:
-- aboutHeader: Mission
-  aboutText: Lorem ipsum dolor sit amet. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-- aboutHeader: Values
-  aboutText: Lorem ipsum dolor sit amet. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-
+  - aboutHeader: Mission
+    aboutText: >-
+      Lorem ipsum dolor sit amet. consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.
+  - aboutHeader: Values
+    aboutText: >-
+      Lorem ipsum dolor sit amet. consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.
