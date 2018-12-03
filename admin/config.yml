@@ -124,7 +124,7 @@ collections:
             name: "mission"
             widget: "object"
             fields:
-              - label: "Mission Title"
+              - label: "Mission Header"
                 name: "aboutHeader"
                 widget: "string"
               - label: "Mission Text"
