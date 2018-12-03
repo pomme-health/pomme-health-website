@@ -5,6 +5,7 @@
   --color-dark-gray: #353C51;
   --color-blue: #33BCAF;
   --color-medium-blue: #5D8FA8;
+  --color-red: #ad2438;
 }
 
 html {
@@ -123,6 +124,18 @@ img {
   transform: translateY(-50%);
 }
 
+.healthcare-banner {
+  background-color: var(--color-medium-blue);
+}
+
+.patients-banner {
+  background-color: var(--color-red);
+}
+
+.managers-banner {
+  background-color: var(--color-dark-gray);
+}
+
 /* Get In Touch */
 
 .get-in-touch-section {
@@ -173,9 +186,12 @@ footer a:hover {
   color: white;
 }
 
-/* .main-section-color {
-  background-color: var(--color-light-gray);
-} */
+/* POMMe Platform */
+
+.platform-card {
+  border: 1px solid var(--color-medium-gray);
+  height: 600px;
+}
 
 /* Health Care Professionals & Patients and Family */
 
