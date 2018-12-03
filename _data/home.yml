@@ -3,7 +3,7 @@ heroBanner:
   text: POMMe-Health provides an innovative platform to solve the complex puzzle of inefficient communication. Health care professionals and patients can easily share information using one common language.
   buttonText: Learn More
   buttonLink: /pomme-platform
-  image: {{site.baseurl}}/images/hero-banner.jpg
+  image: /images/hero-banner.jpg
 
 sectionTitle: Health care decisions driven by information from both the clinician and the patient.
 
