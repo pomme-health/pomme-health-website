@@ -5,6 +5,7 @@
   --color-dark-gray: #353C51;
   --color-blue: #33BCAF;
   --color-medium-blue: #5D8FA8;
+  --color-red: #ad2438;
 }
 
 html {
@@ -121,6 +122,18 @@ img {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+}
+
+.healthcare-banner {
+  background-color: var(--color-medium-blue);
+}
+
+.patients-banner {
+  background-color: var(--color-red);
+}
+
+.managers-banner {
+  background-color: var(--color-dark-gray);
 }
 
 /* Get In Touch */
