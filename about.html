@@ -9,7 +9,7 @@ meta: This is the About page for the POMMe-Health.
     <p>{{site.data.about.history.historyText}}</p>
   </section>
 
-  <section id=about-mission-values class="pad-b-2">
+  <!-- <section id=about-mission-values class="pad-b-2">
     <div class="grid grid-middle wrapper">
     {% for values in site.data.about.mission %}
       <div class="unit s-1 m-1-2 l-1-2 island text-center">
@@ -23,19 +23,17 @@ meta: This is the About page for the POMMe-Health.
       </div>
     {% endfor %}
     </div>
-  </section>
+  </section> -->
 
   <section id="about-leadership" class="pad-b-2">
     <div class="grid grid-middle wrapper">
-    {% for leadersip in site.data.leadership %}
       <div class="unit xs-1 s-1 m-1-2">
         <img class="img-flex" src="https://placehold.it/700x600" alt="">
       </div>
       <div class="unit xs-1 s-1 m-1-2  island">
-        <h2>{{leadership.leaderHeader}}</h2>
-        <p class="milli">{{leadership.leaderText}}</p>
+        <h2>{{site.data.about.leadership.leaderHeader}}</h2>
+        <p class="milli">{{site.data.about.leadership.leaderText}}</p>
       </div>
-    {% endfor %}
     </div>
   </section>
 
