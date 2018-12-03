@@ -114,8 +114,8 @@ collections:
             name: "history"
             widget: "object"
             fields:
-              - label: "History Title"
-                name: "historyTitle"
+              - label: "History Header"
+                name: "historyHeader"
                 widget: "string"
               - label: "History Text"
                 name: "historyText"
