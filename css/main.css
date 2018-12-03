@@ -203,7 +203,10 @@ footer a:hover {
 .section-padding {
   padding-top: 5em;
   padding-bottom: 5em;
+}
 
+.professionals-background {
+  background-color: #F8F8F8;
 }
 
 /* About Page */
@@ -213,7 +216,7 @@ footer a:hover {
 }
 
 .mission-value {
-  background-color: ##f7f7f7;
+  background-color: #F8F8F8;
 }
 
 .whats-new-card p {
