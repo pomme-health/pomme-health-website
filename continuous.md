@@ -4,14 +4,15 @@ title: "Continuous"
 desc: "Lorem ipsum"
 ---
 
-# Continuous
+The ability to measure patient outcomes over time allows everyone to continuously
+monitor and improve the delivery of care.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The ability to intervene sooner when subtle changes are recognized in patient
+functioning.
 
-![](/images/uploads/banner.jpg)
+Continuous quality improvement with measurement and management for optimal patient outcomes.
 
-## Lorem Ipsum
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Medium-range data collection and analysis for measurement and management.
+Assists with decisions to continue, maintain, change or withdraw health care interventions.
 
-## Lorem ipsum
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Long-range big data analytics to determine best resource allocation for patient groups.
