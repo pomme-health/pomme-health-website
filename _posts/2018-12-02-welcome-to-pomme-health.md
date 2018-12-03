@@ -17,14 +17,13 @@ Let’s make an action plan for a patient that includes their input.
 
 Let’s ensure that patients can have optimal functioning.
 
-Let’s envision the best quality of life for all!
+Let’s envision the best quality of life for all!
 
 Stay tuned for fabulous developments.
 
-
-
 Cheryl Netterfield, MD
 
-_POMMe-Health, President & Co-Founder_
+**POMMe-Health, President & Co-Founder
+**
 
 __
