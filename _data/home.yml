@@ -1,60 +1,55 @@
 heroBanner:
-  title: Measurably improving a patient's quality of life.
-  text: POMMe-Health provides an innovative platform to solve the complex puzzle of inefficient communication. Health care professionals and patients can easily share information using one common language.
   buttonText: Learn More
-  buttonLink: /pomme-platform
   image: /images/hero-banner.jpg
-
-sectionTitle: Health care decisions driven by information from both the clinician and the patient.
-
+  text: >-
+    POMMe-Health provides an innovative platform to solve the complex puzzle of
+    inefficient communication. Health care professionals and patients can easily
+    share information using one common language.
+  title: Measurably improving a patient's quality of life.
+sectionTitle: >-
+  Health care decisions driven by information from both the clinician and the
+  patient.
 homeCards:
   - icon: /images/uploads/common-language-icon.svg
-    text: Breaking down barriers between health care providers and complex patients.A comprehensive common language for truly efficient collaboration.
+    text: >-
+      Breaking down barriers between health care providers and complex patients.
+      <br>A comprehensive common language for truly efficient collaboration.
     title: Break Down Barriers
   - icon: /images/uploads/barriers-icon.svg
     text: >-
-      Creating the environment for informed health care decisions. Providing the right intervention at the right time for the right reason.
+      Creating the environment for informed health care decisions. Providing the
+      right intervention at the right time for the right reason.
     title: Informed Decisions
   - icon: /images/uploads/driven-by-passion-icon.svg
     text: >-
-      Measuring improvements in functioning and quality of life by objective data. Resource allocation managed by data analytics.
+      Measuring improvements in functioning and quality of life by objective
+      data. Resource allocation managed by data analytics.
     title: Driven by Data
-
 homeSections:
-  - leadingText: Comprehensive
+  - image: /images/patients.jpg
+    leadingText: Comprehensive
     mainSectionHeader: 'The complete physical, emotional and social view of a patient'
     mainSectionText: >-
       We will define a patient by the person they are and the environment they
       live in, not by their diagnosis. POMMe allows both health care providers
       and the patient to input information about the complete patient.
-    pullClass: m-1-2
-    pushClass: m-1-2
     sectionButton: Learn More
-    image: /images/patients.jpg
-    buttonLink: /comprehensive
-  - leadingText: Collaborative
+  - image: /images/sharing-ideas.jpg
+    leadingText: Collaborative
     mainSectionHeader: 'Sharing ideas, not just collating information'
     mainSectionText: >-
       True collaboration is the exchange of information and ideas between team
       members to develop the best plan for the delivery of healthcare.
       Collaboration involves trust and transparency; hallmarks of the highest
       level of integrated teamwork
-    pullClass: unit-pull-m-1-2
-    pushClass: unit-push-m-1-2
     sectionButton: Learn More
-    image: /images/sharing-ideas.jpg
-    buttonLink: /collaborative
-  - leadingText: Continuous
+  - image: /images/tracking.jpg
+    leadingText: Continuous
     mainSectionHeader: Tracking progress over time
     mainSectionText: >-
       The ability to measure patient’s outcomes over time allows everyone to
       continuously monitor and improve the delivery of care
-    pullClass: m-1-2
-    pushClass: m-1-2
     sectionButton: Learn More
-    image: /images/tracking.jpg
-    buttonLink: /continuous
-
 getInTouch:
   button: Send
   text: Enter your email to get in touch with us.
