@@ -4,6 +4,8 @@ title: "Continuous"
 desc: "Lorem ipsum"
 ---
 
+# Continuous
+
 The ability to measure patient outcomes over time allows everyone to continuously
 monitor and improve the delivery of care.
 

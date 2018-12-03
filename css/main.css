@@ -216,11 +216,6 @@ footer a:hover {
   background-color: ##f7f7f7;
 }
 
-.card-shadow {
-  box-shadow: 3px 3px 10px #e2e2e2;
-  transition: all .2s ease;
-}
-
 .whats-new-card p {
   color: var(--color-dark-gray);
 }
@@ -251,9 +246,10 @@ footer a:hover {
 }
 
 .blog-card {
-  padding: 1rem;
-  display: block;
+  border: 1px solid var(--color-medium-gray);
   transition: all .2s ease;
+  width: 100%;
+  height: 150px;
 }
 
 .blog-title {

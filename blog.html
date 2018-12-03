@@ -11,11 +11,13 @@ layout: default
 
   <section class="max-length pad-t-2 pad-b-2">
     {% for post in site.posts %}
-        <a class="blog-card ib push" href="{{site.baseurl}}{{post.url}}">
-          <div  class="">
+    <div class="island">
+        <a class="blog-card push" href="{{site.baseurl}}{{post.url}}">
+          <div  class="island-1-2">
             <p class="push-0 giga blog-title">{{post.title}}</p>
             <p class="push-0">{{post.desc}}</p>
           </div>
         </a>
+        </div>
     {% endfor %}
   </section>
