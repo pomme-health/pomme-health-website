@@ -30,7 +30,7 @@ homeSections:
     pullClass: m-1-2
     pushClass: m-1-2
     sectionButton: Learn More
-    image: /images/patients.jpg
+    image: /images/comprehensive.jpeg
     buttonLink: /comprehensive
   - leadingText: Collaborative
     mainSectionHeader: 'Sharing ideas, not just collating information'
@@ -42,7 +42,7 @@ homeSections:
     pullClass: unit-pull-m-1-2
     pushClass: unit-push-m-1-2
     sectionButton: Learn More
-    image: /images/sharing-ideas.jpg
+    image: /images/collaborative.jpeg
     buttonLink: /collaborative
   - leadingText: Continuous
     mainSectionHeader: Tracking progress over time
@@ -52,7 +52,7 @@ homeSections:
     pullClass: m-1-2
     pushClass: m-1-2
     sectionButton: Learn More
-    image: /images/tracking.jpg
+    image: /images/continuous.jpg
     buttonLink: /continuous
 
 getInTouch:
