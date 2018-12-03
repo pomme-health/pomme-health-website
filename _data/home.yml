@@ -31,7 +31,7 @@ homeSections:
     pushClass: m-1-2
     sectionButton: Learn More
     image: /images/patients.jpg
-    link: /comprehensive
+    mainSectionlink: /comprehensive
   - leadingText: Collaborative
     mainSectionHeader: 'Sharing ideas, not just collating information'
     mainSectionText: >-
