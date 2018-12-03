@@ -12,14 +12,15 @@ history:
     care providers to work better collaboratively and thereby, enhance patient
     outcomes.  POMMe-Health, Inc is headquartered in Ottawa, Ontario.
   historyTitle: History
+
 mission:
-  - aboutHeader: Mission
-    aboutText: >-
-      Lorem ipsum dolor sit amet. consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
-  - aboutHeader: Values
-    aboutText: >-
-      Lorem ipsum dolor sit amet. consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
+- aboutHeader: Mission
+  aboutText: Lorem ipsum dolor sit amet. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+- aboutHeader: Values
+  aboutText: Lorem ipsum dolor sit amet. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
 leadership:
-  leaderHeader: ''
+- leaderHeader: Leadership
+  leaderText: Lorem ipsum dolor sit amet. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+  image:
