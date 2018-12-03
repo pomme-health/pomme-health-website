@@ -18,7 +18,7 @@ collections:
   - label: "Pages"
     name: "pages"
     files:
-      - label: "Home page"
+      - label: "Home Page"
         name: "home"
         file: "_data/home.yml"
         fields:
@@ -71,7 +71,7 @@ collections:
                 name: "sectionButton"
                 widget: "string"
               - label: "Button Link"
-                name: "mainSectionLink"
+                name: "buttonLink"
                 widget: "string"
               - label: "Image"
                 name: "image"
