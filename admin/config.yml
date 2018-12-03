@@ -135,10 +135,10 @@ collections:
             widget: "object"
             fields:
               - label: "leadership Title"
-                name: "aboutHeader"
+                name: "leaderHeader"
                 widget: "string"
               - label: "leadership Text"
-                name: "aboutText"
+                name: "leaderText"
                 widget: "string"
 
       - label: "Comprehensive"
