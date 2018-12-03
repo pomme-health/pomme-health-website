@@ -7,6 +7,6 @@ mission:
   missionHeader: Mission & Value Statements
   missionText: POMMe-Health’s mission is to allow patients to enhance their functionality and live their best quality of life.
 
-# leadership:
-#   leaderHeader: Leadership
-#   leaderText: Dr. Cheryl Netterfield, MD, CCFP, FCFP, Dip Sports Medicine Cheryl is a Family Physician with over 24 years in the Canadian Armed Forces and special interests in occupational, disability and sports medicine. She is passionate about making collaborative care more efficient and increasing patients’ functionality and quality of life. Julie Shah, MSc, MBA, PM Julie is a health IT consultant with knowledge and expertise in health care processes and financial business case analysis. As an IT project manager, she is instrumental in the successful implementation of complex health care delivery projects.
+leadership:
+  leaderHeader: Leadership
+  leaderText: Dr. Cheryl Netterfield, MD, CCFP, FCFP, Dip Sports Medicine Cheryl is a Family Physician with over 24 years in the Canadian Armed Forces and special interests in occupational, disability and sports medicine. She is passionate about making collaborative care more efficient and increasing patients’ functionality and quality of life. Julie Shah, MSc, MBA, PM Julie is a health IT consultant with knowledge and expertise in health care processes and financial business case analysis. As an IT project manager, she is instrumental in the successful implementation of complex health care delivery projects.

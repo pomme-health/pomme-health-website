@@ -125,10 +125,20 @@ collections:
             widget: "object"
             fields:
               - label: "Mission Header"
-                name: "aboutHeader"
+                name: "missionHeader"
                 widget: "string"
               - label: "Mission Text"
-                name: "aboutText"
+                name: "missionText"
+                widget: "string"
+          - label: "Leadership"
+            name: "leadership"
+            widget: "object"
+            fields:
+              - label: "Leadership Header"
+                name: "leaderHeader"
+                widget: "string"
+              - label: "Leadership Text"
+                name: "leaderText"
                 widget: "string"
 
       - label: "Comprehensive"
