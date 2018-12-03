@@ -1,25 +1,11 @@
 history:
   historyTitle: History
-  historyText: >-
-    When Cheryl Netterfield worked for the Canadian Armed Forces, she was
-    concerned that the health care to soldiers with complex issues was not
-    optimal. She discovered that valuable information was hidden in the medical
-    files of the various care providers but never really accessed. During
-    interdisciplinary case conferences, it was evident that the sharing of
-    information for the care was of the patient was not efficient.  POMMe-Health
-    was created to address the issue of inefficient provider and patient
-    communication and collaboration. POMMe stands for “Patient Outcome
-    Management and Measurement”. The app provides an adjunct tool for health
-    care providers to work better collaboratively and thereby, enhance patient
-    outcomes.  POMMe-Health, Inc is headquartered in Ottawa, Ontario.
+  historyText: History text goes here
 
-leadership:
-  leaderHeader: Leadership
-  leaderText: Dr. Cheryl Netterfield, MD, CCFP, FCFP, Dip Sports Medicine Cheryl is a Family Physician with over 24 years in the Canadian Armed Forces and special interests in occupational, disability and sports medicine. She is passionate about making collaborative care more efficient and increasing patients’ functionality and quality of life. Julie Shah, MSc, MBA, PM Julie is a health IT consultant with knowledge and expertise in health care processes and financial business case analysis. As an IT project manager, she is instrumental in the successful implementation of complex health care delivery projects.
-
-mission:
-  aboutHeader: Mission
-  aboutText: Lorem ipsum dolor sit amet. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-  aboutHeader: Values
-  aboutText: Lorem ipsum dolor sit amet. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+# mission:
+#   missionHeader: Mission & Value Statements
+#   missionText: POMMe-Health’s mission is to allow patients to enhance their functionality and live their best quality of life.
+#
+# leadership:
+#   leaderHeader: Leadership
+#   leaderText: Dr. Cheryl Netterfield, MD, CCFP, FCFP, Dip Sports Medicine Cheryl is a Family Physician with over 24 years in the Canadian Armed Forces and special interests in occupational, disability and sports medicine. She is passionate about making collaborative care more efficient and increasing patients’ functionality and quality of life. Julie Shah, MSc, MBA, PM Julie is a health IT consultant with knowledge and expertise in health care processes and financial business case analysis. As an IT project manager, she is instrumental in the successful implementation of complex health care delivery projects.

@@ -238,7 +238,17 @@ footer a:hover {
   transform: scale(1.03);
 }
 
-/* About Page */
+.mission-section {
+  background-color: var(--color-dark-gray);
+}
+
+.mission-section h2 {
+  color: #fff;
+}
+
+.mission-section p {
+  color: #fff;
+}
 
 .blog-card {
   padding: 1rem;
