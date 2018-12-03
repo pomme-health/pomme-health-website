@@ -1,38 +1,27 @@
 platformSections:
-  - mainSectionHeader:
+  - mainSectionHeader: Common Language based on functionality.
     mainSectionText: >-
-      Common Language based on functionality
-    pullClass: m-1-2
-    pushClass: m-1-2
+      Easily understood by all. Minimal to no training required.
     image: /images/patients.jpg
   - mainSectionHeader: Efficient
     mainSectionText: >-
-      Rapid input and live-time collation of information for efficient identification of patient issues needing attention
-    pullClass: unit-pull-m-1-2
-    pushClass: unit-push-m-1-2
-    sectionButton: Learn More
+      Rapid input and live-time collation of information for efficient identification of patient issues needing attention.
+      Most inputs taking less than 5 minutes per patient.
     image: /images/sharing-ideas.jpg
-  - mainSectionHeader:
+  - mainSectionHeader: Links to supplementary tools and content at appropriate points in the clinical    workflow (e.g. diagnostic tools, patient education materials).
     mainSectionText: >-
-      Links to supplementary tools and content at appropriate points in the clinical    workflow (e.g. diagnostic tools, patient education materials).
-    pullClass: m-1-2
-    pushClass: m-1-2
+         Clinical care management simplified.
     image: /images/tracking.jpg
   - mainSectionHeader: Develop coordinated care Action Plan
     mainSectionText: >-
-      Support your decision with objective information and data. Accountability measures for follow up
-    pullClass: unit-pull-m-1-2
-    pushClass: unit-push-m-1-2
+      Support your decision with objective information and data. Accountability measures for follow up.
     image: /images/tracking.jpg
   - mainSectionHeader: Track Changes
     mainSectionText: >-
       Intervene sooner when subtle changes are recognized in patient functioning
-    pullClass: m-1-2
-    pushClass: m-1-2
     image: /images/tracking.jpg
-  - mainSectionHeader: Continuous Quality Improvement
+  - mainSectionHeader: Continuous quality improvement with metrics of functional outcome.
     mainSectionText: >-
-      Metrics of functional outcomes. Measurement and management for optimal patient outcomes
-    pullClass: unit-pull-m-1-2
-    pushClass: unit-push-m-1-2
+      Measurement and management for optimal patient outcomes.
+      Assists with decision to continue, maintain, change or withdraw health care
     image: /images/tracking.jpg

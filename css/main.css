@@ -186,9 +186,12 @@ footer a:hover {
   color: white;
 }
 
-/* .main-section-color {
-  background-color: var(--color-light-gray);
-} */
+/* POMMe Platform */
+
+.platform-card {
+  border: 1px solid var(--color-medium-gray);
+  height: 600px;
+}
 
 /* Health Care Professionals & Patients and Family */
 

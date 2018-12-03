@@ -8,7 +8,7 @@ layout: default
       </div>
     </div>
   </section>
-  {% for platform in site.data.platform.platformSections %}
+  <!-- {% for platform in site.data.platform.platformSections %}
   <section class="home-panels {{platform.sectionColour}}">
     <div class="grid grid-middle wrapper">
       <div class="unit xs-1 s-1 m-1-2 {{platform.pushClass}}">
@@ -20,4 +20,24 @@ layout: default
       </div>
     </div>
   </section>
-  {% endfor %}
+  {% endfor %} -->
+
+
+  <section class="wrapper">
+    <div class="grid grid-stretch pad-t-2 pad-b-2">
+        {% for platform in site.data.platform.platformSections %}
+      <div class="island unit-content-distribute unit xs-1 s-1-2 m-1-2 l-1-2 ">
+        <div class="platform-card">
+          <div class="embed embed-16by9 push">
+            <img class="img-flex embed-item platform-img" src="{{site.baseurl}}{{platform.image}}" alt="">
+          </div>
+          <div class="gutter">
+            <h2 class="">{{platform.mainSectionHeader}}</h2>
+            <p class="content-shrink">{{platform.mainSectionText}}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </section>
