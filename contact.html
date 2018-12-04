@@ -4,17 +4,45 @@ meta: This is the Contact page for the POMMe-Health.
 emailText: Email address
 ---
 
-<div class="wrapper grid island center-text">
-  <div class="unit xs-1 s-1 m-1 l-1 island">
-    <h1 class="yotta push-0">{{site.data.contact.contactPage.title}}</h1>
-    <p class="milli">{{site.data.contact.contactPage.text}}</p>
+<section class="wrapper pad-t-2 pad-b-2">
+  <div class="grid grid-middle text-center">
+    <div class="unit xs-1 s-1 m-1-2">
+      <h2>Contact Us</h2>
+      <p class="push-0"><strong>Email</strong></p>
+      <p>{{site.data.contact.contactInformation.contactEmail}}</p>
+      <p class="push-0"><strong>Phone</strong></p>
+      <p>{{site.data.contact.contactInformation.contactTel}}</p>
+    </div>
+    <div class="unit xs-1 s-1 m-1-2">
+      <h2>Technical Support</h2>
+      <p class="push-0"><strong>Email</strong></p>
+      <p>{{site.data.contact.contactInformation.contactEmail}}</p>
+      <p class="push-0"><strong>Phone</strong></p>
+      <p>{{site.data.contact.contactInformation.contactTel}}</p>
+    </div>
   </div>
-</div>
-
-{% include contact-information.html %}
-
-{% for contact in site.data.contact-fill %}
-{% include contact-tiles.html data=contact %}
-{% endfor %}
-
-{% include careers-cards.html %}
+</section>
+<section class="investors-section pad-t-2 pad-b-2">
+  <div class="max-length">
+    <h2>Investors</h2>
+    <p>{{site.data.contact.investors.investorsText}}</p>
+    <p>{{site.data.contact.investors.investorsText2}}</p>
+    <p class="push-0"><strong>Email</strong> {{site.data.contact.contactInformation.contactEmail}}</p>
+    <p><strong>Phone</strong> {{site.data.contact.contactInformation.contactTel}}</p>
+  </div>
+</section>
+<section class="wrapper pad-t-2 pad-b-2">
+  <div class="grid grid-middle">
+    <div class="unit xs-1 s-1 m-1-2">
+      <div class="embed embed-4by3">
+        <img class="img-flex embed-item" src="{{site.baseurl}}{{site.data.contact.careers.careersImage}}" alt="">
+      </div>
+    </div>
+    <div class="unit xs-1 s-1 m-1-2 island">
+      <h2>Careers</h2>
+      <p>{{site.data.contact.careers.careersText}}</p>
+      <p class="push-0"><strong>Email</strong> {{site.data.contact.contactInformation.contactEmail}}</p>
+      <p><strong>Phone</strong> {{site.data.contact.contactInformation.contactTel}}</p>
+    </div>
+  </div>
+</section>
