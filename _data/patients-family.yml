@@ -1,0 +1,28 @@
+patientsSections:
+  - mainSectionHeader: Common intuitive language based functional scoring.
+    listItem: Be an active partners in your health care.
+    listItemTwo: Take action when concerns arise.
+    listItemThree: Live-time entry of functional issues to alert health care providers.
+    image: /images/intuitive-language-2.jpg
+    sectionPadding: pad-t-2
+  - mainSectionHeader:  Eliminate working in blind spots.
+    listItem: Common intuitive language based functional scoring.
+    listItemTwo: Easily understood by all.
+    listItemThree:  Minimal to no training required.
+    image: /images/senior-hands.jpg
+    pullClass: unit-pull-m-1-3
+    pushClass: unit-push-m-2-3
+    professionalsBackground: professionals-background
+  - mainSectionHeader: Comprehensive and full bio-psycho-social model.
+    listItem: Sharing your ideas and information with your health care team.
+    listItemTwo: Staying on the same page as all of the providers.
+    listItemThree:     Sharing relevant and valuable information necessary for decisions.
+    image: /images/full-bio.jpg
+  - mainSectionHeader: Develop coordinated care Action Plan
+    listItem: Safety and privacy is paramount.
+    listItemTwo: Your information is safe and protected.
+    listItemThree: Password protected to the highest health-care legislated standards.
+    image: /images/tracking.jpg
+    pullClass: unit-pull-m-1-3
+    pushClass: unit-push-m-2-3
+    professionalsBackground: professionals-background
