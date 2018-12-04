@@ -10,7 +10,7 @@ professionalsSections:
     listItemTwo: Stop working in silos.
     listItemThree: Enabling shared decision-making allowing true collaboration.
     listItemFour: Team facilitators will have total picture of patient needs.
-    image: /images/senior-hands.jpg
+    image: /images/book-words.jpg
     pullClass: unit-pull-m-1-3
     pushClass: unit-push-m-2-3
     professionalsBackground: professionals-background
@@ -20,9 +20,10 @@ professionalsSections:
     listItemThree: Areas frequently missed in traditional health care team-based models such as environmental and social factors.
     image: /images/full-bio.jpg
   - mainSectionHeader: Develop coordinated care Action Plan
-    listItem: Support your decision with objective information and data.
-    listItemTwo: Accountability measures for follow up.
-    image: /images/tracking.jpg
+    listItem:  Better understanding and appreciation of patient’s perspectives and needs.
+    listItemTwo:  Emphasizing a patient-centric need for active participation in their care.
+    listItemThree: Enabling both patient and family in decision making and accountability for care.
+    image: /images/senior-hands.jpg
     pullClass: unit-pull-m-1-3
     pushClass: unit-push-m-2-3
     professionalsBackground: professionals-background
