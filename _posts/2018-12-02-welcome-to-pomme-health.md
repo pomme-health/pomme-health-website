@@ -3,6 +3,9 @@ layout: blog
 title: Welcome to POMMe-Health!
 desc: Our first blog post.
 ---
+
+December 2, 2018
+
 ## Welcome to POMMe-Health!
 
 Welcome to the first blog for POMMe-Health! It is indeed an exciting time for us as we continue to develop and test our app.
