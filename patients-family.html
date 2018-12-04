@@ -10,8 +10,8 @@ layout: default
   </div>
 </section>
 
-{% for patients in site.data.patients.patientsSections %}
-  <section class="{{patients.professionalsBackground}} push-2 {{professionals.sectionPadding}}">
+{% for patients in site.data.patients-family.patientsSections %}
+  <section class="{{patients.professionalsBackground}} push-2 {{patients.sectionPadding}}">
       <div class="grid grid-middle wrapper">
         <div class="unit xs-1-2 s-1-2 m-1-3 {{patients.pushClass}}">
           <div class="embed embed-16by9">
@@ -20,9 +20,9 @@ layout: default
         </div>
         <div class="unit xs-1-2 s-1-2 m-2-3 island {{patients.pullClass}}">
           <ul class="list-group push-0">
-            <li class="">{{professionals.listItem}}</li>
-            <li class="">{{professionals.listItemTwo}}</li>
-            <li class="">{{professionals.listItemThree}}</li>
+            <li class="">{{patients.listItem}}</li>
+            <li class="">{{patients.listItemTwo}}</li>
+            <li class="">{{patients.listItemThree}}</li>
           </ul>
       </div>
     </div>

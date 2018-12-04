@@ -6,29 +6,49 @@ meta: This is the About page for the POMMe-Health.
 
   <section id="about-history" class="pad-t-2 pad-b-2 max-length">
     <h2>{{site.data.about.history.historyHeader}}</h2>
-    <p>{{site.data.about.history.historyText}}</p>
+    <p>{{site.data.about.history.historyParagraph1}}</p>
+    <p>{{site.data.about.history.historyParagraph2}}</p>
+    <p>{{site.data.about.history.historyParagraph3}}</p>
+    <p>{{site.data.about.history.historyParagraph4}}</p>
   </section>
 
   <section id=about-mission-values class="pad-b-2 pad-t-2 mission-section">
     <div class="max-length text-center">
-          <h2 class="push-1-4 m-v-h3">{{site.data.about.mission.missionHeader}}</h2>
-          <p class="push-0">{{site.data.about.mission.missionText}}</p>
-        </div>
-  </section>
-
-  <section id="about-leadership" class="pad-b-2">
-    <div class="grid grid-middle wrapper">
-      <div class="unit xs-1 s-1 m-1-2">
-        <img class="img-flex" src="https://placehold.it/700x600" alt="">
-      </div>
-      <div class="unit xs-1 s-1 m-1-2  island">
-        <h2>{{site.data.about.leadership.leaderHeader}}</h2>
-        <p class="milli">{{site.data.about.leadership.leaderText}}</p>
-      </div>
+      <h2 class="push-1-4 m-v-h3">{{site.data.about.mission.missionHeader}}</h2>
+      <p class="push-0">{{site.data.about.mission.missionText}}</p>
     </div>
   </section>
 
-  <article id="about-news" class="island wrapper pad-b-2">
+  <section id="about-leadership" class="pad-b-2 pad-t-2">
+    <h2 class="text-center">Leadership</h2>
+    <div class="grid grid-top wrapper">
+      {% for leadership in site.data.about.leadership %}
+        <div class="unit xs-1 s-1 m-1-2  island">
+          <h3 class="kilo push-1-2">{{leadership.personName}}</h3>
+          <p>{{leadership.leaderText}}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section id="about-news" class="pad-b-2 pad-t-2">
+    <h2 class="text-center push-2">In The News</h2>
+    {% for news in site.data.about.inTheNews %}
+    <div class="grid grid-middle wrapper news-card push">
+      <div class="unit xs-1-3">
+        <div class="embed embed-4by3">
+          <img class="img-flex embed-item" src="{{site.baseurl}}{{news.newsImage}}" alt="">
+        </div>
+      </div>
+      <div class="unit xs-2-3 island">
+        <h4>{{news.newsTitle}}</h4>
+        <p class="push-0">{{news.newsDescription}}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+
+  <!-- <article id="about-news" class="island wrapper pad-b-2">
     <h2 class="push-1-2">In the News</h2>
     <div class="grid grid-stretch">
       {% for post in site.posts limit: 3 %}
@@ -42,4 +62,4 @@ meta: This is the About page for the POMMe-Health.
       </div>
     {% endfor %}
     </div>
-  </article>
+  </article> -->
