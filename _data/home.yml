@@ -6,9 +6,11 @@ heroBanner:
     inefficient communication. Health care professionals and patients can easily
     share information using one common language.
   title: Measurably improving a patient's quality of life.
+
 sectionTitle: >-
   Health care decisions driven by information from both the clinician and the
   patient.
+
 homeCards:
   - icon: /images/uploads/common-language-icon.svg
     text: >-
@@ -25,6 +27,7 @@ homeCards:
       Measuring improvements in functioning and quality of life by objective
       data. Resource allocation managed by data analytics.
     title: Driven by Data
+
 homeSections:
   - image: /images/patients.jpg
     leadingText: Comprehensive
@@ -60,6 +63,7 @@ homeSections:
     pullClass: m-1-2
     image: /images/continuous.jpeg
     buttonLink: /continuous
+
 getInTouch:
   button: Send
   text: Enter your email to get in touch with us.
