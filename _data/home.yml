@@ -26,8 +26,7 @@ homeCards:
       data. Resource allocation managed by data analytics.
     title: Driven by Data
 homeSections:
-  - buttonLink: /comprehensive
-    image: /images/uploads/comprehensive.jpg
+  - image: /images/uploads/comprehensive.jpg
     leadingText: Comprehensive
     mainSectionHeader: 'The complete physical, emotional and social view of a patient'
     mainSectionText: >-
@@ -36,16 +35,26 @@ homeSections:
       and the patient to input information about the complete patient.
       sectionButton: Learn More
     sectionButton: Learn More
-  - buttonLink: /collaborative
-    image: /images/uploads/collaborative.jpg
+    buttonLink: /comprehensive
+  - image: /images/uploads/collaborative.jpg
     leadingText: Collaborative
     mainSectionHeader: 'Sharing ideas, not just collating information'
     mainSectionText: >-
       True collaboration is the exchange of information and ideas between team
-      members to develop the best plan for the delivery of healthcare. 
+      members to develop the best plan for the delivery of healthcare.
       Collaboration involves trust and transparency; hallmarks of the highest
       level of integrated teamwork.
     sectionButton: Learn More
+    buttonLink: /collaborative
+    pushClass: m-1-2
+    pullClass: m-1-2
+  - image: /images/uploads/continuous.jpg
+    leadingText: Continuous
+    mainSectionHeader: 'Tracking progress over time'
+    mainSectionText: >-
+      The ability to measure patient’s outcomes over time allows everyone to continuously monitor and improve the delivery of care.
+    sectionButton: Learn More
+    buttonLink: /continuous
 getInTouch:
   button: Send
   text: Enter your email to get in touch with us.
