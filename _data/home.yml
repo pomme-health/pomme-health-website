@@ -28,6 +28,7 @@ homeSections:
       live in, not by their diagnosis. POMMe allows both health care providers
       and the patient to input information about the complete patient.
       sectionButton: Learn More
+    buttonText: Learn More
     buttonLink: /comprehensive
     image: /images/uploads/comprehensive.jpg
     pushClass: m-1-2
