@@ -11,38 +11,41 @@ sectionTitle: >-
   patient.
 homeCards:
   - icon: /images/uploads/barriers-icon.svg
+    text: >-
+      Breaking down barriers between health care providers and complex patients.
+      A comprehensive common language for truly efficient collaboration.
     title: Break Down Barriers
-    text: 'Breaking down barriers between health care providers and complex patients. A comprehensive common language for truly efficient collaboration.'
   - icon: /images/uploads/common-language-icon.svg
+    text: >-
+      Creating the environment for informed health care decisions. Providing the
+      right intervention at the right time for the right reason.
     title: Informed Decisions
-    text: 'Creating the environment for informed health care decisions. Providing the right intervention at the right time for the right reason.'
   - icon: /images/uploads/driven-by-data-icon.svg
+    text: >-
+      Measuring improvements in functioning and quality of life by objective
+      data. Resource allocation managed by data analytics.
     title: Driven by Data
-    text: 'Measuring improvements in functioning and quality of life by objective data. Resource allocation managed by data analytics.'
-
 homeSections:
-  - leadingText: Comprehensive
+  - buttonLink: /comprehensive
+    image: /images/uploads/comprehensive.jpg
+    leadingText: Comprehensive
     mainSectionHeader: 'The complete physical, emotional and social view of a patient'
     mainSectionText: >-
       We will define a patient by the person they are and the environment they
       live in, not by their diagnosis. POMMe allows both health care providers
       and the patient to input information about the complete patient.
       sectionButton: Learn More
-    buttonText: Learn More
-    buttonLink: /comprehensive
-    image: /images/uploads/comprehensive.jpg
-    pushClass: m-1-2
-    pullClass: m-1-2
-  - leadingText: Collaborative
+    sectionButton: Learn More
+  - buttonLink: /collaborative
+    image: /images/uploads/collaborative.jpg
+    leadingText: Collaborative
     mainSectionHeader: 'Sharing ideas, not just collating information'
     mainSectionText: >-
-      True collaboration is the exchange of information and ideas between team members to develop the best plan for the delivery of healthcare.  Collaboration involves trust and transparency; hallmarks of the highest level of integrated teamwork.
-    buttonText: Learn More
-    buttonLink: /collaborative
-    image: /images/uploads/collaborative.jpg
-    pushClass: unit-push-m-1-2
-    pullClass: unit-pull-m-1-2
-
+      True collaboration is the exchange of information and ideas between team
+      members to develop the best plan for the delivery of healthcare. 
+      Collaboration involves trust and transparency; hallmarks of the highest
+      level of integrated teamwork.
+    sectionButton: Learn More
 getInTouch:
   button: Send
   text: Enter your email to get in touch with us.
