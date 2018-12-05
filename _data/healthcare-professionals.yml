@@ -5,8 +5,8 @@ professionalsSections:
       * Easily understood by all.
       * Minimal to no training required.
   - image: /images/book-words.jpg
-    push-class: unit-push-m-2-3
-    pull-class: unit-pull-m-1-3
+    pushClass: unit-push-m-2-3
+    pullClass: unit-pull-m-1-3
     text: |-
       * Eliminate working in blind spots.
       * Stop working in silos.
