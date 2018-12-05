@@ -239,11 +239,8 @@ collections:
             widget: "object"
             fields:
               - label: "Investors Text"
-                name: "investorsText"
-                widget: "string"
-              - label: "Investors Text"
-                name: "investorsText2"
-                widget: "string"
+                name: "text"
+                widget: "markdown"
           - label: "Careers"
             name: "careers"
             widget: "object"
