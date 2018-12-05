@@ -1,28 +1,28 @@
 managersSections:
-  - mainSectionHeader: Common intuitive language based functional scoring.
-    listItem: Common intuitive language based functional scoring.
-    listItemTwo: Easily understood by all.
-    listItemThree: Minimal to no training required.
-    image: /images/intuitive-language-2.jpg
+  - image: /images/intuitive-language-2.jpg
+    text: |-
+      * Common intuitive language based functional scoring.
+      * Easily understood by all.
+      * Minimal to no training required.
     sectionPadding: pad-t-2
-  - mainSectionHeader:  Eliminate working in blind spots.
-    listItem: Immediate data collection and analysis for short-term care action plans.
-    listItemTwo: Better decision making when entire team collaborates with relevant information.
-    listItemThree:  Accountability measures for follow up and reevaluation.
-    listItemFour: Continuous quality improvement with metrics of functional outcome.
-    image: /images/senior-hands.jpg
+  - image: /images/senior-hands.jpg
+    text: |-
+      * Immediate data collection and analysis for short-term care action plans.
+      * Better decision making when entire team collaborates with relevant information.
+      * Accountability measures for follow up and reevaluation.
+      * Continuous quality improvement with metrics of functional outcome.
     pullClass: unit-pull-m-1-3
     pushClass: unit-push-m-2-3
     professionalsBackground: professionals-background
-  - mainSectionHeader: Comprehensive and full bio-psycho-social model.
-    listItem: Medium-range data collection and analysis for measurement and management for optimal patient outcomes.
-    listItemTwo: Assists with decisions to continue, maintain, change or withdraw health care Interventions.
-    image: /images/full-bio.jpg
-  - mainSectionHeader: Develop coordinated care Action Plan
-    listItem: Long-range big data analytics to determine best resource allocation for patient groups
-    listItemTwo: Ability to determine resources for care and treatment for long-term maintenance and rehabilitation.
-    listItemThree:  Improve funding allocations for care providers and assisted living.
-    image: /images/tracking.jpg
+  - image: /images/full-bio.jpg
+    text: |-
+      * Medium-range data collection and analysis for measurement and management for optimal patient outcomes.
+      * Assists with decisions to continue, maintain, change or withdraw health care Interventions.
+  - image: /images/tracking.jpg
+    text: |-
+      * Long-range big data analytics to determine best resource allocation for patient groups
+      * Ability to determine resources for care and treatment for long-term maintenance and rehabilitation.
+      * Improve funding allocations for care providers and assisted living.
     pullClass: unit-pull-m-1-3
     pushClass: unit-push-m-2-3
     professionalsBackground: professionals-background

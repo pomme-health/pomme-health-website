@@ -19,12 +19,7 @@ layout: default
           </div>
         </div>
         <div class="unit xs-1 s-1-2 m-2-3 island {{managers.pullClass}}">
-          <ul class="list-group push-0">
-            <li class="">{{managers.listItem}}</li>
-            <li class="">{{managers.listItemTwo}}</li>
-            <li class="">{{managers.listItemThree}}</li>
-            <li class="">{{managers.listItemFour}}</li>
-          </ul>
+          {{managers.text | markdownify }}
       </div>
     </div>
   </section>
