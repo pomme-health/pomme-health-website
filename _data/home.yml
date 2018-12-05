@@ -11,8 +11,15 @@ sectionTitle: >-
   patient.
 homeCards:
   - icon: /images/uploads/barriers-icon.svg
-    text: '  Informed Decisions Creating the environment for informed health care decisions. Providing the right intervention at the right time for the right reason.   Driven by Data'
     title: Break Down Barriers
+    text: 'Breaking down barriers between health care providers and complex patients. A comprehensive common language for truly efficient collaboration.'
+  - icon: /images/uploads/barriers-icon.svg
+    title: Informed Decisions
+    text: 'Creating the environment for informed health care decisions. Providing the right intervention at the right time for the right reason.'
+  - icon: /images/uploads/barriers-icon.svg
+    title: Driven by Data
+    text: 'Creating the environment for informed health care decisions. Providing the right intervention at the right time for the right reason.'
+
 homeSections:
   - buttonLink: /comprehensive
     image: /images/uploads/comprehensive.jpg
