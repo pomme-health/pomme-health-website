@@ -5,6 +5,7 @@ professionalsSections:
     listItemThree: Minimal to no training required.
     image: /images/intuitive-language-2.jpg
     sectionPadding: pad-t-2
+    text:
   - mainSectionHeader:  Eliminate working in blind spots.
     listItem: Eliminate working in blind spots.
     listItemTwo: Stop working in silos.

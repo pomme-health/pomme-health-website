@@ -1,4 +1,12 @@
 heroBanner:
+  title: Testing hello
+sectionTitle: Test
+homeCards:
+  - icon: /images/uploads/common-language-icon.svg
+    text: sdfg
+    title: fg
+
+heroBanner:
   buttonText: Learn More
   image: /images/hero-banner.jpg
   text: >-
@@ -42,7 +50,8 @@ homeSections:
     pullClass: m-1-2
     image: /images/comprehensive.jpg
     buttonLink: /comprehensive
-  - leadingText: Collaborative
+  - image: /images/collaborative.jpg
+    leadingText: Collaborative
     mainSectionHeader: 'Sharing ideas, not just collating information'
     mainSectionText: >-
       True collaboration is the exchange of information and ideas between team
@@ -52,9 +61,9 @@ homeSections:
     sectionButton: Learn More
     pushClass: unit-push-m-1-2
     pullClass: unit-pull-m-1-2
-    image: /images/collaborative.jpg
     buttonLink: /collaborative
-  - leadingText: Continuous
+  - image: /images/continuous.jpeg
+    leadingText: Continuous
     mainSectionHeader: Tracking progress over time
     mainSectionText: >-
       The ability to measure patient’s outcomes over time allows everyone to
@@ -62,7 +71,6 @@ homeSections:
     sectionButton: Learn More
     pushClass: m-1-2
     pullClass: m-1-2
-    image: /images/continuous.jpeg
     buttonLink: /continuous
 
 getInTouch:

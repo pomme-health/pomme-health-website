@@ -18,12 +18,7 @@ layout: default
             </div>
           </div>
           <div class="unit xs-1 s-1-2 m-2-3 island {{professionals.pullClass}}">
-            <ul class="list-group push-0">
-              <li class="">{{professionals.listItemZero}}</li>
-              <li class="">{{professionals.listItem}}</li>
-              <li class="">{{professionals.listItemTwo}}</li>
-              <li class="">{{professionals.listItemThree}}</li>
-            </ul>
+            {{professionals.text | markdownify }}
         </div>
       </div>
     </section>

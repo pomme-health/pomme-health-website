@@ -3,6 +3,10 @@ backend:
   repo: pomme-health/pomme-health-website
 
 media_folder: "images/uploads"
+display_url: "https://pomme-health.com"
+
+editor:
+     preview: false
 
 collections:
   - label: "Website Settings"
@@ -117,21 +121,9 @@ collections:
             name: "professionalsSections"
             widget: "list"
             fields:
-              - label: "Section Header"
-                name: "mainSectionHeader"
-                widget: "string"
-              - label: "Text 1"
-                name: "listItem"
-                widget: "string"
-              - label: "Text 2"
-                name: "listItemTwo"
-                widget: "string"
-              - label: "Text 3"
-                name: "listItemThree"
-                widget: "string"
-              - label: "Text 4"
-                name: "listItemFour"
-                widget: "string"
+              - label: "SectionText"
+                name: "text"
+                widget: "markdown"
               - label: "Section Image"
                 name: "image"
                 widget: "image"
