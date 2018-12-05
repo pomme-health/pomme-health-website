@@ -13,12 +13,12 @@ homeCards:
   - icon: /images/uploads/barriers-icon.svg
     title: Break Down Barriers
     text: 'Breaking down barriers between health care providers and complex patients. A comprehensive common language for truly efficient collaboration.'
-  - icon: /images/uploads/barriers-icon.svg
+  - icon: /images/uploads/common-language-icon.svg
     title: Informed Decisions
     text: 'Creating the environment for informed health care decisions. Providing the right intervention at the right time for the right reason.'
-  - icon: /images/uploads/barriers-icon.svg
+  - icon: /images/uploads/driven-by-data-icon.svg
     title: Driven by Data
-    text: 'Creating the environment for informed health care decisions. Providing the right intervention at the right time for the right reason.'
+    text: 'Measuring improvements in functioning and quality of life by objective data. Resource allocation managed by data analytics.'
 
 homeSections:
   - leadingText: Comprehensive
@@ -33,6 +33,15 @@ homeSections:
     image: /images/uploads/comprehensive.jpg
     pushClass: m-1-2
     pullClass: m-1-2
+  - leadingText: Collaborative
+    mainSectionHeader: 'Sharing ideas, not just collating information'
+    mainSectionText: >-
+      True collaboration is the exchange of information and ideas between team members to develop the best plan for the delivery of healthcare.  Collaboration involves trust and transparency; hallmarks of the highest level of integrated teamwork.
+    buttonText: Learn More
+    buttonLink: /collaborative
+    image: /images/uploads/collaborative.jpg
+    pushClass: unit-push-m-1-2
+    pullClass: unit-pull-m-1-2
 
 getInTouch:
   button: Send
