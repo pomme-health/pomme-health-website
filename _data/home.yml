@@ -1,13 +1,6 @@
 heroBanner:
-  title: Testing hello
-sectionTitle: Test
-homeCards:
-  - icon: /images/uploads/common-language-icon.svg
-    text: sdfg
-    title: fg
-
-heroBanner:
   buttonText: Learn More
+  image: /images/uploads/hero-banner.jpg
   text: >-
     POMMe-Health provides an innovative platform to solve the complex puzzle of
     inefficient communication. Health care professionals and patients can easily
@@ -18,21 +11,8 @@ sectionTitle: >-
   patient.
 homeCards:
   - icon: /images/uploads/barriers-icon.svg
-    text: >-
-      Breaking down barriers between health care providers and complex
-      patients.  A comprehensive common language for truly efficient
-      collaboration.
+    text: '  Informed Decisions Creating the environment for informed health care decisions. Providing the right intervention at the right time for the right reason.   Driven by Data'
     title: Break Down Barriers
-  - icon: /images/uploads/driven-by-passion-icon.svg
-    text: >-
-      Creating the environment for informed health care decisions. Providing the
-      right intervention at the right time for the right reason.
-    title: Informed Decisions
-  - icon: /images/uploads/common-language-icon.svg
-    text: >-
-      Measuring improvements in functioning and quality of life by objective
-      data. Resource allocation managed by data analytics.
-    title: Driven by Data
 homeSections:
   - buttonLink: /comprehensive
     image: /images/uploads/comprehensive.jpg
@@ -43,27 +23,6 @@ homeSections:
       live in, not by their diagnosis. POMMe allows both health care providers
       and the patient to input information about the complete patient.
     sectionButton: Learn More
-
-  - buttonLink: /collaborative
-    image: /images/uploads/collaborative.jpg
-    leadingText: Collaborative
-    mainSectionHeader: 'Sharing ideas, not just collating information'
-    mainSectionText: >-
-      True collaboration is the exchange of information and ideas between team
-      members to develop the best plan for the delivery of healthcare.
-      Collaboration involves trust and transparency; hallmarks of the highest
-      level of integrated teamwork
-    sectionButton: Learn More
-
-  - buttonLink: /continuous
-    image: /images/uploads/continuous.jpeg
-    leadingText: Continuous
-    mainSectionHeader: Tracking progress over time
-    mainSectionText: >-
-      The ability to measure patient’s outcomes over time allows everyone to
-      continuously monitor and improve the delivery of care
-    sectionButton: Learn More
-
 getInTouch:
   button: Send
   text: Enter your email to get in touch with us.
