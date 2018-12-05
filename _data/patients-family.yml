@@ -1,8 +1,9 @@
 patientsSections:
   - mainSectionHeader: Common intuitive language based functional scoring.
-    listItem: Be an active partners in your health care.
-    listItemTwo: Take action when concerns arise.
-    listItemThree: Live-time entry of functional issues to alert health care providers.
+    text: |-
+      * Be an active partners in your health care.
+      * Take action when concerns arise.
+      * Live-time entry of functional issues to alert health care providers.
     image: /images/people-desk.jpg
     sectionPadding: pad-t-2
   - mainSectionHeader:  Eliminate working in blind spots.
