@@ -43,16 +43,9 @@ homeSections:
       live in, not by their diagnosis. POMMe allows both health care providers
       and the patient to input information about the complete patient.
     sectionButton: Learn More
-<<<<<<< HEAD
-    pushClass: m-1-2
-    pullClass: m-1-2
-    image: /images/comprehensive.jpg
-    buttonLink: /comprehensive
-  - image: /images/collaborative.jpg
-=======
+
   - buttonLink: /collaborative
     image: /images/uploads/collaborative.jpg
->>>>>>> 5a378669c260ac850471557f298680449705e582
     leadingText: Collaborative
     mainSectionHeader: 'Sharing ideas, not just collating information'
     mainSectionText: >-
@@ -61,28 +54,16 @@ homeSections:
       Collaboration involves trust and transparency; hallmarks of the highest
       level of integrated teamwork
     sectionButton: Learn More
-<<<<<<< HEAD
-    pushClass: unit-push-m-1-2
-    pullClass: unit-pull-m-1-2
-    buttonLink: /collaborative
-  - image: /images/continuous.jpeg
-=======
+
   - buttonLink: /continuous
     image: /images/uploads/continuous.jpeg
->>>>>>> 5a378669c260ac850471557f298680449705e582
     leadingText: Continuous
     mainSectionHeader: Tracking progress over time
     mainSectionText: >-
       The ability to measure patient’s outcomes over time allows everyone to
       continuously monitor and improve the delivery of care
     sectionButton: Learn More
-<<<<<<< HEAD
-    pushClass: m-1-2
-    pullClass: m-1-2
-    buttonLink: /continuous
 
-=======
->>>>>>> 5a378669c260ac850471557f298680449705e582
 getInTouch:
   button: Send
   text: Enter your email to get in touch with us.
