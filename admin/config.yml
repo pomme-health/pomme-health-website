@@ -6,7 +6,7 @@ media_folder: "images/uploads"
 display_url: "https://pomme-health.com"
 
 editor:
-     preview: false
+  preview: false
 
 collections:
   - label: "Website Settings"

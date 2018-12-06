@@ -1,3 +1,6 @@
+banner:
+  image: /images/patients-couple.jpg
+
 patientsSections:
   - image: /images/people-desk.jpg
     text: |-

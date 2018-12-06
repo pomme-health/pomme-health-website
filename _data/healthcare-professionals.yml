@@ -1,6 +1,9 @@
+banner:
+  image: /images/professionals-banner.jpg
+
 professionalsSections:
   - image: /images/intuitive-language-2.jpg
-    sectionPadding: pad-t
+    sectionPadding: pad-t-2
     text: |-
       * Common intuitive language based functional scoring.
       * Easily understood by all.

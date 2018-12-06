@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-  <section class="small-banner platform-banner">
+  <section class="small-banner" style="background: linear-gradient(to right, rgba(95, 185, 175, .75) , rgba(95, 185, 175, .75)), url({{site.baseurl}}{{site.data.platform.banner.image}}); background-size: cover; background-position: center center;">
     <div class="small-banner-container  wrapper grid island">
       <div class="unit xs-1 s-1 m-1 l-1-2">
         <h1 class="yotta push-0">POMMe Platform</h1>
@@ -46,9 +46,7 @@ layout: default
     {% for platform in site.data.platform.platformSections %}
     <div class="grid grid-middle {{platform.padding}} gutter">
       <div class="unit xs-1 m-2-3 {{platform.pushClass}}">
-        <div class="embed embed-4by3">
-          <img class="img-flex embed-item" src="{{site.baseurl}}{{platform.image}}" alt="">
-        </div>
+        <img class="img-flex" src="{{site.baseurl}}{{platform.image}}" alt="">
       </div>
       <div class="unit xs-1 m-1-3 pad-t pad-b {{platform.pullClass}}">
         <h3>{{platform.mainSectionHeader}}</h3>
