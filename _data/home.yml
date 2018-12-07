@@ -6,7 +6,6 @@ heroBanner:
     inefficient communication. Health care professionals and patients can easily
     share information using one common language.
   title: Measurably improving a patient's quality of life.
-  buttonLink: /pomme-platform
 sectionTitle: >-
   Health care decisions driven by information from both the clinician and the
   patient.
@@ -27,7 +26,8 @@ homeCards:
       data. Resource allocation managed by data analytics.
     title: Driven by Data
 homeSections:
-  - image: /images/uploads/comprehensive.jpg
+  - buttonLink: /comprehensive
+    image: /images/uploads/comprehensive.jpg
     leadingText: Comprehensive
     mainSectionHeader: 'The complete physical, emotional and social view of a patient'
     mainSectionText: >-
@@ -36,8 +36,8 @@ homeSections:
       and the patient to input information about the complete patient.
       sectionButton: Learn More
     sectionButton: Learn More
-    buttonLink: /comprehensive
-  - image: /images/uploads/comprehensive.jpg
+  - buttonLink: /customizable
+    image: /images/uploads/banner.jpg
     leadingText: Customizable
     mainSectionHeader: 'The complete physical, emotional and social view of a patient'
     mainSectionText: >-
@@ -46,10 +46,8 @@ homeSections:
       and the patient to input information about the complete patient.
       sectionButton: Learn More
     sectionButton: Learn More
-    buttonLink: /customizable
-    pushClass: unit-push-m-1-2
-    pullClass: unit-pull-m-1-2
-  - image: /images/uploads/collaborative.jpg
+  - buttonLink: /collaborative
+    image: /images/uploads/collaborative.jpg
     leadingText: Collaborative
     mainSectionHeader: 'Sharing ideas, not just collating information'
     mainSectionText: >-
@@ -58,16 +56,14 @@ homeSections:
       Collaboration involves trust and transparency; hallmarks of the highest
       level of integrated teamwork.
     sectionButton: Learn More
-    buttonLink: /collaborative
-  - image: /images/uploads/continuous.jpeg
+  - buttonLink: /continuous
+    image: /images/uploads/continuous.jpeg
     leadingText: Continuous
-    mainSectionHeader: 'Tracking progress over time'
+    mainSectionHeader: Tracking progress over time
     mainSectionText: >-
-      The ability to measure patient’s outcomes over time allows everyone to continuously monitor and improve the delivery of care.
+      The ability to measure patient’s outcomes over time allows everyone to
+      continuously monitor and improve the delivery of care.
     sectionButton: Learn More
-    buttonLink: /continuous
-    pushClass: unit-push-m-1-2
-    pullClass: unit-pull-m-1-2
 getInTouch:
   button: Send
   text: Enter your email to get in touch with us.
