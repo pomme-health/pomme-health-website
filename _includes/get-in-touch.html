@@ -2,10 +2,10 @@
   <div class="wrapper text-center">
     <h2>{{site.data.home.getInTouch.title}}</h2>
     <p>{{site.data.home.getInTouch.text}}</p>
-    <form class="max-length gutter" action="https://formspree.io/melany.pelletier@gmail.com" method="POST">
-      <label class="text-left" for="email">Email address</label>
-      <input class="push" type="text" id="email" required>
-      <button class="text-center nav-btn" type="submit">{{site.data.home.getInTouch.button}}</button>
+    <form method="POST" action="https://formspree.io/melany.pelletier@gmail.com">
+      <input type="email" name="email" placeholder="Your email">
+      <!-- <textarea name="message" placeholder="Test Message"></textarea> -->
+      <button type="submit">Send</button>
     </form>
   </div>
 </section>
