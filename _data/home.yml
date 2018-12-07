@@ -47,6 +47,8 @@ homeSections:
       sectionButton: Learn More
       class
     sectionButton: Learn More
+    pushClass: unit-push-m-1-2
+    pullClass: unit-pull-m-1-2
   - buttonLink: /collaborative
     image: /images/uploads/collaborative.jpg
     leadingText: Collaborative
@@ -65,6 +67,8 @@ homeSections:
       The ability to measure patient’s outcomes over time allows everyone to
       continuously monitor and improve the delivery of care.
     sectionButton: Learn More
+    pushClass: unit-push-m-1-2
+    pullClass: unit-pull-m-1-2
 getInTouch:
   button: Send
   text: Enter your email to get in touch with us.
