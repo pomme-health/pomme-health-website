@@ -1,7 +1,6 @@
 ---
 layout: main-sections
 title: "Comprehensive"
-desc: "Lorem ipsum"
 ---
 
 # Comprehensive
