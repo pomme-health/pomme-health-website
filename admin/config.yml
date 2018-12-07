@@ -130,6 +130,9 @@ collections:
         name: "healthcare-professionals"
         file: "_data/healthcare-professionals.yml"
         fields:
+          - label: "Banner Image"
+            name: "banner"
+            widget: image
           - label: "Professionals Sections"
             name: "professionalsSections"
             widget: "list"
