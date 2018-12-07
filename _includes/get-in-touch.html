@@ -2,9 +2,9 @@
   <div class="wrapper text-center">
     <h2>{{site.data.home.getInTouch.title}}</h2>
     <p>{{site.data.home.getInTouch.text}}</p>
-    <form method="POST" action="https://formspree.io/melany.pelletier@gmail.com">
-      <input type="email" name="email" placeholder="Your email">
-      <!-- <textarea name="message" placeholder="Test Message"></textarea> -->
+    <form class="max-length gutter" method="POST" action="https://formspree.io/melany.pelletier@gmail.com">
+      <label>Email Address</label>
+      <input class="push text-left" type="email" name="email" placeholder="Your email">
       <button type="submit">Send</button>
     </form>
   </div>
