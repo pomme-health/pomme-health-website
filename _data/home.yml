@@ -47,6 +47,8 @@ homeSections:
       sectionButton: Learn More
     sectionButton: Learn More
     buttonLink: /customizable
+    pushClass: unit-push-m-1-2
+    pullClass: unit-pull-m-1-2
   - image: /images/uploads/collaborative.jpg
     leadingText: Collaborative
     mainSectionHeader: 'Sharing ideas, not just collating information'
@@ -57,8 +59,6 @@ homeSections:
       level of integrated teamwork.
     sectionButton: Learn More
     buttonLink: /collaborative
-    pushClass: unit-push-m-1-2
-    pullClass: unit-pull-m-1-2
   - image: /images/uploads/continuous.jpeg
     leadingText: Continuous
     mainSectionHeader: 'Tracking progress over time'
@@ -66,6 +66,8 @@ homeSections:
       The ability to measure patient’s outcomes over time allows everyone to continuously monitor and improve the delivery of care.
     sectionButton: Learn More
     buttonLink: /continuous
+    pushClass: unit-push-m-1-2
+    pullClass: unit-pull-m-1-2
 getInTouch:
   button: Send
   text: Enter your email to get in touch with us.
