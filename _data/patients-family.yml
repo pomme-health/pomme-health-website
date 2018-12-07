@@ -1,5 +1,6 @@
 banner:
   image: /images/patients-couple.jpg
+  text: Health Care Professionals
 
 patientsSections:
   - image: /images/people-desk.jpg

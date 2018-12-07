@@ -113,6 +113,15 @@ collections:
         name: "pomme-platform"
         file: "_data/platform.yml"
         fields:
+          - label: "Banner"
+            name: "banner"
+            widget: "object"
+            fields:
+              - label: "Image"
+                name: "image"
+                widget: "image"
+              - label: "Text"
+                name: "text"
           - label: "Platform Sections"
             name: "platformSections"
             widget: "list"
@@ -160,6 +169,15 @@ collections:
         name: "patients-family"
         file: "_data/patients-family.yml"
         fields:
+          - label: "Banner"
+            name: "banner"
+            widget: "object"
+            fields:
+              - label: "Image"
+                name: "image"
+                widget: "image"
+              - label: "Text"
+                name: "text"
           - label: "Patient Section"
             name: "patientsSections"
             widget: "list"
@@ -174,6 +192,15 @@ collections:
         name: "healthcare-managers"
         file: "_data/healthcare-managers.yml"
         fields:
+          - label: "Banner"
+            name: "banner"
+            widget: "object"
+            fields:
+              - label: "Image"
+                name: "image"
+                widget: "image"
+              - label: "Text"
+                name: "text"
           - label: "Managers Section"
             name: "managersSections"
             widget: "list"

@@ -1,5 +1,6 @@
 banner:
   image: /images/platform-banner.jpg
+  text: POMMe Platform
 
 platformSections:
   - mainSectionHeader: Common Language based on functionality.

@@ -1,3 +1,7 @@
+banner:
+  image: images/platform-banner.jpg
+  text: Health Care Managers
+
 managersSections:
   - image: /images/intuitive-language-2.jpg
     text: |-
