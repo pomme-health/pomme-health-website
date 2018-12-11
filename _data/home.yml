@@ -38,9 +38,7 @@ homeSections:
   - buttonLink: /customizable
     image: /images/uploads/banner.jpg
     leadingText: Customizable
-    mainSectionHeader: >-
-      A platform that is as unique and special as the patient and their
-      environment.
+    mainSectionHeader: A platform that is as unique as the patient in their environment.
     mainSectionText: >-
       We will define a patient by the person they are and the environment they
       live in, not by their diagnosis. POMMe allows both health care providers
