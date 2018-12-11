@@ -1,7 +1,4 @@
----
-layout: main-sections
-title: "Comprehensive"
----
+![](/images/uploads/agriculture-apple-blur-257840.jpg)
 
 # Comprehensive
 
