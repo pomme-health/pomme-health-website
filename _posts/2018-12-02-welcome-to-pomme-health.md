@@ -13,6 +13,8 @@ Truly collaborative care should be greater than the sum parts of the collated in
 
 POMMe-Health is an amazing health care app that has the potential to change the way we approach health care of complex patients. This is even more critical for patients with many care providers. How often have you heard a patient or family member say: “I wish my health care providers would just talk to each other”?
 
+
+
 Let’s get everybody on the same page and share our ideas and our information.
 
 Let’s make an action plan for a patient that includes their input.
@@ -21,11 +23,11 @@ Let’s ensure that patients can have optimal functioning.
 
 Let’s envision the best quality of life for all!
 
+
+
 Stay tuned for fabulous developments.
 
 Cheryl Netterfield, MD
 
-**POMMe-Health, President & Co-Founder
+**POMMe-Health, CEO, CMO & Co-Founder
 **
-
-__
