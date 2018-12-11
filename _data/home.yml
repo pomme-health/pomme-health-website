@@ -40,10 +40,9 @@ homeSections:
     leadingText: Customizable
     mainSectionHeader: A platform that is as unique as the patient in their environment.
     mainSectionText: >-
-      We will define a patient by the person they are and the environment they
-      live in, not by their diagnosis. POMMe allows both health care providers
-      and the patient to input information about the complete patient.
-      sectionButton: Learn More class
+      Information gathering that is adaptable. Features dependant on the
+      characteristics of the patient. Health care providers and the patient can
+      control what is measured.
     sectionButton: Learn More
   - buttonLink: /collaborative
     image: /images/uploads/collaborative.jpg
