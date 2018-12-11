@@ -21,6 +21,8 @@ Let’s ensure that patients can have optimal functioning.
 
 Let’s envision the best quality of life for all!
 
+
+
 Stay tuned for fabulous developments.
 
 Cheryl Netterfield, MD
