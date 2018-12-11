@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: '2 Dec, 2018 Welcome to POMMe-Health!'
+title: 2 Dec 2018 Welcome to POMMe-Health!
 desc: Our first blog post.
 ---
 ## Welcome to POMMe-Health!
