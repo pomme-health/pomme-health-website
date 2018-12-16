@@ -1,32 +1,35 @@
 banner:
   image: /images/managers-banner.jpg
   text: Health Care Managers
-
 managersSections:
   - image: /images/intuitive-language-2.jpg
     text: |-
-      * Common intuitive language based functional scoring.
+      * Common intuitive language based on **functional scoring**.
       * Easily understood by all.
       * Minimal to no training required.
-    sectionPadding: pad-t-2
   - image: /images/senior-hands.jpg
-    text: |-
+    text: >-
       * Immediate data collection and analysis for short-term care action plans.
-      * Better decision making when entire team collaborates with relevant information.
-      * Accountability measures for follow up and reevaluation.
-      * Continuous quality improvement with metrics of functional outcome.
-    pullClass: unit-pull-m-1-3
-    pushClass: unit-push-m-2-3
-    professionalsBackground: professionals-background
+
+      * Better decision making when entire team collaborates with relevant
+      information.
+
+      * **Accountability measures** for follow up and reevaluation.
+
+      * Continuous quality improvement with **metrics** of functional outcome.
   - image: /images/full-bio.jpg
-    text: |-
-      * Medium-range data collection and analysis for measurement and management for optimal patient outcomes.
-      * Assists with decisions to continue, maintain, change or withdraw health care Interventions.
+    text: >-
+      * Medium-range data collection and analysis for measurement and management
+      for optimal **patient outcomes**.
+
+      * Assists with decisions to continue, maintain, change or withdraw health
+      care Interventions.
   - image: /images/tracking.jpg
-    text: |-
-      * Long-range big data analytics to determine best resource allocation for patient groups
-      * Ability to determine resources for care and treatment for long-term maintenance and rehabilitation.
+    text: >-
+      * Long-range big data analytics to determine best **resource allocation**
+      for patient groups
+
+      * Ability to determine resources for care and treatment for long-term
+      maintenance and rehabilitation.
+
       * Improve funding allocations for care providers and assisted living.
-    pullClass: unit-pull-m-1-3
-    pushClass: unit-push-m-2-3
-    professionalsBackground: professionals-background
