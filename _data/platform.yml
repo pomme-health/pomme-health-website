@@ -1,42 +1,31 @@
 banner:
   image: /images/platform-banner.jpg
   text: POMMe Platform
-
 platformSections:
-  - mainSectionHeader: Common Language based on functionality.
+  - image: /images/sign-in-wireframe.png
+    mainSectionHeader: Common Language based on functionality.
+    mainSectionText: Easily understood by all. Minimal to no training required.
+  - image: /images/uploads/agriculture-apple-blur-257840.jpg
+    mainSectionHeader: Efficient
     mainSectionText: >-
-      Easily understood by all. Minimal to no training required.
-    image: /images/sign-in-wireframe.png
-    padding: pad-t-2 pad-b
-  - mainSectionHeader: Efficient
+      Rapid input and live-time collation of information for efficient
+      identification of patient issues needing attention. Most inputs taking
+      less than 5 minutes per patient.
+  - image: /images/uploads/agriculture-apple-blur-257840.jpg
+    mainSectionHeader: Clinical care management simplified.
     mainSectionText: >-
-      Rapid input and live-time collation of information for efficient identification of patient issues needing attention.
-      Most inputs taking less than 5 minutes per patient.
-    image: /images/category-wireframe.png
-    pullClass: unit-pull-m-2-3
-    pushClass: unit-push-m-1-3
-    padding: pad-b
-  - mainSectionHeader: Clinical care management simplified.
-    mainSectionText: Links to supplementary tools and content at appropriate points in the clinical workflow (e.g. diagnostic tools, patient education materials).
-    image: /images/patient-detail-wireframe.png
-    padding: pad-b
-  - mainSectionHeader: Develop coordinated care Action Plan
+      Links to supplementary tools and content at appropriate points in the
+      clinical workflow (e.g. diagnostic tools, patient education materials).
+  - image: /images/uploads/agriculture-apple-blur-257840.jpg
+    mainSectionHeader: Develop coordinated care Action Plan
     mainSectionText: >-
-      Support your decision with objective information and data. Accountability measures for follow up.
-    image: /images/patient-wireframe.png
-    pullClass: unit-pull-m-2-3
-    pushClass: unit-push-m-1-3
-    padding: pad-b
-  - mainSectionHeader: Track Changes
+      Support your decision with objective information and data. Accountability
+      measures for follow up.
+  - image: /images/uploads/agriculture-apple-blur-257840.jpg
+    mainSectionHeader: Track Changes
+    mainSectionText: Intervene sooner when subtle changes are recognized in patient functioning
+  - image: /images/uploads/agriculture-apple-blur-257840.jpg
+    mainSectionHeader: Continuous quality improvement with metrics of functional outcome.
     mainSectionText: >-
-      Intervene sooner when subtle changes are recognized in patient functioning
-    image: /images/summary-wireframe.png
-    padding: pad-b
-  - mainSectionHeader: Continuous quality improvement with metrics of functional outcome.
-    mainSectionText: >-
-      Measurement and management for optimal patient outcomes.
-      Assists with decision to continue, maintain, change or withdraw health care
-    image: /images/review-wireframe.png
-    pullClass: unit-pull-m-2-3
-    pushClass: unit-push-m-1-3
-    padding: pad-b-2
+      Measurement and management for optimal patient outcomes. Assists with
+      decision to continue, maintain, change or withdraw health care
