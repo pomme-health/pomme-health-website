@@ -1,35 +1,24 @@
 banner:
   image: /images/patients-couple.jpg
   text: Patients & Family
-
 patientsSections:
   - image: /images/people-desk.jpg
     text: |-
-      * Be an active partners in your health care.
+      * Be an **active partners** in your health care.
       * Take action when concerns arise.
-      * Live-time entry of functional issues to alert health care providers.
-    sectionPadding: pad-t-2
-
+      * **Live-time** entry of functional issues to alert health care providers.
   - image: /images/intuitive-language-2.jpg
     text: |-
       * Common intuitive language based functional scoring.
       * Easily understood by all.
-      *  Minimal to no training required.
-    pullClass: unit-pull-m-1-3
-    pushClass: unit-push-m-2-3
-    professionalsBackground: professionals-background
-
+      * Minimal to** no training** required.
   - image: /images/looking-at-ipad.jpg
     text: |-
       * Sharing your ideas and information with your health care team.
-      * Staying on the same page as all of the providers.
+      * Staying on the **same page** as all of the providers.
       * Sharing relevant and valuable information necessary for decisions.
-
   - image: /images/key-in-door.jpg
     text: |-
       * Safety and privacy is paramount.
-      * Your information is safe and protected.
+      * Your information is **safe** and **protected**.
       * Password protected to the highest health-care legislated standards.
-    pullClass: unit-pull-m-1-3
-    pushClass: unit-push-m-2-3
-    professionalsBackground: professionals-background
