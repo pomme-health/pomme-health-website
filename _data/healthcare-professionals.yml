@@ -1,32 +1,32 @@
 banner:
   image: /images/professionals-banner.jpg
   text: Health Care Professionals
-
 professionalsSections:
   - image: /images/intuitive-language-2.jpg
-    sectionPadding: pad-t-2
     text: |-
-      * Common intuitive language based functional scoring.
-      * Easily understood by all.
+      * Common **intuitive** language based on functional scoring.
+      * **Easily** understood by all.
       * Minimal to no training required.
   - image: /images/book-words.jpg
-    pushClass: unit-push-m-2-3
-    pullClass: unit-pull-m-1-3
-    professionalsBackground: professionals-background
     text: |-
-      * Eliminate working in blind spots.
+      * Eliminate working in **blind** spots.
       * Stop working in silos.
-      * Enabling shared decision-making allowing true collaboration.
+      * Enabling shared decision-making allowing **true** collaboration.
   - image: /images/full-bio.jpg
-    text: |-
-      * Comprehensive and full bio-psycho-social model.
+    text: >-
+      * Comprehensive and full **bio-psycho-social **model.
+
       * Functionality is not dependant on patient diagnoses.
-      * Areas frequently missed in traditional health care team-based models such as environmental and social factors.
+
+      * Areas frequently missed in traditional health care team-based models
+      such as environmental and social factors.
   - image: /images/senior-hands.jpg
-    pushClass: unit-push-m-2-3
-    pullClass: unit-pull-m-1-3
-    professionalsBackground: professionals-background
-    text: |-
-      * Better understanding and appreciation of patient’s perspectives and needs.
-      * Emphasizing a patient-centric need for active participation in their care.
-      * Enabling both patient and family in decision making and accountability for care.
+    text: >-
+      * Better understanding and appreciation of patient’s perspectives and
+      needs.
+
+      * Emphasizing a patient-centric need for **active** participation in their
+      care.
+
+      * **Enabling** both patient and family in decision making and
+      accountability for care.
