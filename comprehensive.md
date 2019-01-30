@@ -1,6 +1,6 @@
 ---
 layout: main-sections
-title: "Continuous"
+title: "Comprehensive"
 ---
 
 # Comprehensive
