@@ -289,6 +289,13 @@ collections:
           - label: "Body"
             name: "body"
             widget: "markdown"
+      - label: "Customizable"
+        name: "customizable"
+        file: customizable.md
+        fields:
+          - label: "Body"
+            name: "body"
+            widget: "markdown"
       - label: "Contact"
         name: "contactPage"
         file: "_data/contact.yml"

@@ -5,15 +5,12 @@ title: "Customizable"
 
 # Customizable
 
-The ability to measure patient outcomes over time allows everyone to continuously
-monitor and improve the delivery of care.
+Each patient is unique; their health care management is also unique.
 
-The ability to intervene sooner when subtle changes are recognized in patient
-functioning.
+The POMMe platform can be customized for the information that the patient wants to measure.
 
-Continuous quality improvement with measurement and management for optimal patient outcomes.
+Health care providers can track functional outcome measures that are more specific and relevant.
 
-Medium-range data collection and analysis for measurement and management.
-Assists with decisions to continue, maintain, change or withdraw health care interventions.
+Customizing the POMMe platform saves time and energy for everyone on the healthcare team.
 
-Long-range big data analytics to determine best resource allocation for patient groups.
+Patients will benefit from a tailored care management plan.

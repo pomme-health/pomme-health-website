@@ -1,11 +1,13 @@
-# Collaborative
+---
+layout: main-sections
+title: "Continuous"
+---
 
-Interdisciplinary teams don’t communicate effectively. They are busy and don’t speak the same language.
+# Comprehensive
+Diagnoses are just labels.
 
-As a result, the health care team is not truly aware of how well the patient is functioning.
+A patient's functionality and quality of life should never be defined by their diagnoses.
 
-Relevant information is hidden in the medical files as providers work in silos.
+POMMe looks at all of the biological, psychological and social factors... a true bio-psycho-model.
 
-Allowing all providers and the patient to speak the same language allows for true Collaboration. Working together allows for better informed decision making.
-
-Together, we are greater as a whole.
+Environment and social factors are frequently not considered when making important care decisions. POMMe gathers this information and allows care providers and the patient to make well-informed care plans.
