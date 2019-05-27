@@ -23,7 +23,9 @@ platformSections:
       measures for follow up.
   - image: /images/sign-in-wireframe.png
     mainSectionHeader: Track Changes
-    mainSectionText: Intervene sooner when subtle changes are recognized in patient functioning
+    mainSectionText: >-
+      Intervene sooner when subtle changes are recognized in patient
+      functioning.
   - image: /images/sign-in-wireframe.png
     mainSectionHeader: Continuous quality improvement with metrics of functional outcome.
     mainSectionText: >-
